@@ -1,0 +1,818 @@
+[
+    {
+      "name": "Angular",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>Actually in version 11 Angular has become an adult SPA framework with much faster build time and significant smaller\nproduction builds. Updating to newer versions has become mostly a &quot;no-brainer&quot; which helps us to integrate latest\ncommunity bug-fix &amp; improvements on a friday during a cup of coffee. Angular ships as a fully integrated development\nplatform from scaffolding, code generation, routing, guarding, unit/e2e-testing, multi language builds (i18n) and stable\ndev/build processes and keeping it extensible at the same time. This &quot;ganzheitlichkeit&quot; makes Angular in the beginning\nway more difficult to learn but once understood it&#39;s a great candidate to go very fast into &quot;requirement implementation&quot;\naka early providing value rather than library wiring. Beside the existing telco-industry projects we&#39;ve actually also\nchosen Angular for resource critical industry 4.0 / embedded projects. Here we&#39;ve selected Angular beside the\nperformance aspects to fulfill requirements like adaptive multi device support (custom hardware buttons, tablets and\nlaptops) on the one hand and on the other hand to reduce the risk loosing time by having too many self-managed external\ndependencies.</p>",
+      "body": "<p>Actually in version 11 Angular has become an adult SPA framework with much faster build time and significant smaller\nproduction builds. Updating to newer versions has become mostly a &quot;no-brainer&quot; which helps us to integrate latest\ncommunity bug-fix &amp; improvements on a friday during a cup of coffee. Angular ships as a fully integrated development\nplatform from scaffolding, code generation, routing, guarding, unit/e2e-testing, multi language builds (i18n) and stable\ndev/build processes and keeping it extensible at the same time. This &quot;ganzheitlichkeit&quot; makes Angular in the beginning\nway more difficult to learn but once understood it&#39;s a great candidate to go very fast into &quot;requirement implementation&quot;\naka early providing value rather than library wiring. Beside the existing telco-industry projects we&#39;ve actually also\nchosen Angular for resource critical industry 4.0 / embedded projects. Here we&#39;ve selected Angular beside the\nperformance aspects to fulfill requirements like adaptive multi device support (custom hardware buttons, tablets and\nlaptops) on the one hand and on the other hand to reduce the risk loosing time by having too many self-managed external\ndependencies.</p>"
+    },
+    {
+      "name": "Ant",
+      "ring": "watch",
+      "quadrant": "Language & Framework",
+      "isNew": "FALSE",
+      "description": "<p>Apache Ant was build in 1997 to have something like Make in the C/C++ world for Java. Ant uses xml files to describe steps required to produce executable artifacts from source code. The main concepts of tasks and targets are programmable in an imperative style.</p>\n<p>Apache Ant was and is widely used by large software projects. Our recommendation is to stop using Apache Ant for new projects. If you are free to choose, we recommend Gradle as an Apache Ant replacement.</p>",
+      "body": "<p>Apache Ant was build in 1997 to have something like Make in the C/C++ world for Java. Ant uses xml files to describe steps required to produce executable artifacts from source code. The main concepts of tasks and targets are programmable in an imperative style.</p>\n<p>Apache Ant was and is widely used by large software projects. Our recommendation is to stop using Apache Ant for new projects. If you are free to choose, we recommend Gradle as an Apache Ant replacement.</p>"
+    },
+    {
+      "name": "Apache Camel",
+      "ring": "trial",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camel.apache.org/\">&quot;Camel&quot;</a> is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.</p>\n<p>Our teams are using Apache Camel as API Gateway that offers APIs and takes care of Federation to various Backends as well as Authorisation tasks.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camel.apache.org/\">&quot;Camel&quot;</a> is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.</p>\n<p>Our teams are using Apache Camel as API Gateway that offers APIs and takes care of Federation to various Backends as well as Authorisation tasks.</p>"
+    },
+    {
+      "name": "API-First Design Approach",
+      "ring": "trial",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p>The API-First Design Approach puts the API design at the beginning of the implementation without any constraints, for example, from the current IT infrastructure or the implementation itself. The idea is to design the API in a way that it serves its purpose best and the consumers are enabled to work efficiently.</p>\n<p>There are several advantages to this approach. For example, it can help to avoid reflecting the internal structure of the application or any internal constraints. Furthermore, as one of the most important design aspects is consistency, one can define features such as the behavior of security, URL schemes, and API keys upfront. It also helps speed up parallel implementation. A team that consumes the API can start working directly after the API design because it can easily be mocked.</p>\n<p>There are several Platform Runtime for modelling an API, but here at AOE we mainly use <a href=\"/techradar/Platform Runtime/raml.html\">RAML</a> as it provides a rich set of Platform Runtime for generating documentation, mocking and more. For mocking we use <a href=\"/techradar/Platform Runtime/wiremock.html\">Wiremock</a>, for example.</p>\n<p>Related to the &quot;API-First&quot; approach is the &quot;Headless&quot; approach where an existing application (with or without existing API) is used as a backend for a separate frontend. We used this with sucess for Magento-based E-Commerce platforms. This allows encapsulating the core features of that application, while integrating it into a larger landscape of components using its API as a unified way to interact between components. Decoupling the core logic from its presentation layer allows picking the best technology stack for the various parts independently.</p>\n<p>For further reading see:</p>\n<ul>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.programmableweb.com/api-university/understanding-api-first-design\">Understanding API First Design</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.techradar.com/news/software/applications/when-crafting-your-api-strategy-put-design-first-1262043?src=rss&amp;attr=all\">When crafting your API strategy, put design first</a></li>\n</ul>",
+      "body": "<p>The API-First Design Approach puts the API design at the beginning of the implementation without any constraints, for example, from the current IT infrastructure or the implementation itself. The idea is to design the API in a way that it serves its purpose best and the consumers are enabled to work efficiently.</p>\n<p>There are several advantages to this approach. For example, it can help to avoid reflecting the internal structure of the application or any internal constraints. Furthermore, as one of the most important design aspects is consistency, one can define features such as the behavior of security, URL schemes, and API keys upfront. It also helps speed up parallel implementation. A team that consumes the API can start working directly after the API design because it can easily be mocked.</p>\n<p>There are several Platform Runtime for modelling an API, but here at AOE we mainly use <a href=\"/techradar/Platform Runtime/raml.html\">RAML</a> as it provides a rich set of Platform Runtime for generating documentation, mocking and more. For mocking we use <a href=\"/techradar/Platform Runtime/wiremock.html\">Wiremock</a>, for example.</p>\n<p>Related to the &quot;API-First&quot; approach is the &quot;Headless&quot; approach where an existing application (with or without existing API) is used as a backend for a separate frontend. We used this with sucess for Magento-based E-Commerce platforms. This allows encapsulating the core features of that application, while integrating it into a larger landscape of components using its API as a unified way to interact between components. Decoupling the core logic from its presentation layer allows picking the best technology stack for the various parts independently.</p>\n<p>For further reading see:</p>\n<ul>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.programmableweb.com/api-university/understanding-api-first-design\">Understanding API First Design</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.techradar.com/news/software/applications/when-crafting-your-api-strategy-put-design-first-1262043?src=rss&amp;attr=all\">When crafting your API strategy, put design first</a></li>\n</ul>"
+    },
+    {
+      "name": "Apollo Client",
+      "ring": "trial",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/apollographql/apollo-client\">Apollo Client</a> is a tool to efficiently work together with an GraphQL server. \nIt makes it easy to run your queries and mutations, cache results, brings tooling to download schemas and generate types to name a few of the useful features.</p>",
+      "body": "<p>The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/apollographql/apollo-client\">Apollo Client</a> is a tool to efficiently work together with an GraphQL server. \nIt makes it easy to run your queries and mutations, cache results, brings tooling to download schemas and generate types to name a few of the useful features.</p>"
+    },
+    {
+      "name": "Artifactory",
+      "ring": "standard",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p>Artifactory is now used in every newly started project at AOE and plays a\ncentral role as an artifact repository for libraries, applications and docker\nimages.  While cleanup is still an issue, we recommend the standardion of an\nartifact repository in all our projects.</p>",
+      "body": "<p>Artifactory is now used in every newly started project at AOE and plays a\ncentral role as an artifact repository for libraries, applications and docker\nimages.  While cleanup is still an issue, we recommend the standardion of an\nartifact repository in all our projects.</p>"
+    },
+    {
+      "name": "AsciiDoc",
+      "ring": "pilot",
+      "quadrant": "Language & Framework",
+      "isNew": "FALSE",
+      "description": "<p>AsciiDoc is a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Lightweight_markup_language\">lightweight markup language</a> such as Markdown. \nWith a concise Syntax, it supports more features than Markdown without extensions such as Tables and Table of Contents.\nIt&#39;s easy to write complex documentation with AsciiDoc. And with Asciidoctor you can export your text to Pdf, HTML, etc.</p>\n<p>At AOE, we use AsciiDoc for Documentation in our Repositories.</p>",
+      "body": ""
+    },
+    {
+      "name": "AWS Lambda",
+      "ring": "trial",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>AWS Lambda is one of the exciting new &quot;cloud-native&quot; / serverless ways to run code without worrying about infrastructure. While it is possible to directly respond to web requests using the API Gateway, our teams are currently using AWS Lambda mostly for tasks outside the critical path. As a custom resource for CloudFormation, it allows us to manage all aspects of a deployment in an elegant way by simply deploying a new CloudFormation stack. Baking AMIs and doing green/blue switches are only two of the many use cases where AWS Lambda comes in very handy.</p>\n<p>In addition to deployment automation, we&#39;re using AWS Lambda to process incoming data. Being able to respond to events from various sources such as S3 Buckets, SNS topics, Kinesis streams and HTTP endpoints it&#39;s a perfect match to process, transform and forward incoming data in near-realtime at a fraction of the cost of running an ESB.</p>",
+      "body": ""
+    },
+    {
+      "name": "Babel",
+      "ring": "standard",
+      "quadrant": "Language",
+      "isNew": "TRUE",
+      "description": "<p>We have been using babel for some time now. Since we have started using it, we don&#39;t have to\nstruggle with unimplemented features of ECMAScript. In this regard, JavaScript is\nJavaScript, no matter what browser you are using. We we strongly recommend \nusing Babel or similar solutions (e.g. TypeScript).</p>",
+      "body": "<p>We have been using babel for some time now. Since we have started using it, we don&#39;t have to\nstruggle with unimplemented features of ECMAScript. In this regard, JavaScript is\nJavaScript, no matter what browser you are using. We we strongly recommend \nusing Babel or similar solutions (e.g. TypeScript).</p>"
+    },
+    {
+      "name": "ZeroTrust",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>Updated to &quot;Adopt&quot;.</p>",
+      "body": "<p>Updated to &quot;Adopt&quot;.</p>"
+    },
+    {
+      "name": "Bower",
+      "ring": "watch",
+      "quadrant": "Tool",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bower.io/\">Bower</a> is a package manager for frontend resources such as JavaScript libraries and CSS frameworks. Compared to <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/\">npm</a>, it has a somewhat different approach to loading and resolving the packages, resulting in a smaller and cleaner folder structure.</p>\n<p>In small web projects, this approach is good and sufficient, but larger projects will need more dependencies such as task runners or testing frameworks, which are not available through Bower. As most of the frontend libraries are also available through npm, it&#39;s not suprising that we ask ourselves why Bower is still needed.</p>\n<p>At AOE, we decided to use npm as the only package manager to avoid having multiple No-Code Development doing similar things. Developers only need to deal with one solution, which makes the project easier to maintain.</p>",
+      "body": ""
+    },
+    {
+      "name": "Containers",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Updated to &quot;standard&quot;. Container based builds has getting to the defacto standard for our pipelines in <a href=\"/techradar/No-Code Development/gitlab.html\">Gitlab</a> or other CI Tools.</p>",
+      "body": "<p>Updated to &quot;standard&quot;. Container based builds has getting to the defacto standard for our pipelines in <a href=\"/techradar/No-Code Development/gitlab.html\">Gitlab</a> or other CI Tools.</p>"
+    },
+    {
+      "name": "Cypress",
+      "ring": "pilot",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cypress.io/\">Cypress</a> is a new front-end testing tool (end2end). It comes as a simple node package and is therefore easy to use and maintain for front-end developers and testers. Cypress has a different approach than selenium, it runs in the browser and in the same loop as the device under test.</p>\n<p>Good:</p>\n<ul>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/cypress-io/cypress\">Open source</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements\">Locally installed</a></li>\n<li>Straightforward (installed via npm and all tests are written in Javascript)</li>\n<li>Good <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell\">documentation</a> and learning material</li>\n<li>Can be run in a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.cypress.io/guides/guides/command-line.html#cypress-run\">headless mode</a></li>\n</ul>\n<p>Not so good:</p>\n<ul>\n<li>No cross-browser testing (only chrome and electron)</li>\n<li>Scenarios with multiple browser tabs can not be tested</li>\n<li>Relatively new test tool, though it is becoming more popular</li>\n</ul>\n<p>Example of a test :</p>\n<pre><code class=\"language-js\">describe(&#x27;My First Test&#x27;, function() {\n  it(&#x27;Visits the Kitchen Sink&#x27;, function() {\n    cy.visit(&#x27;https<span class=\"hljs-symbol\">://example</span>.cypress.io&#x27;)\n\n    cy.contains(&#x27;type&#x27;).click()\n\n    cy.url().should(&#x27;include&#x27;, &#x27;/commands/actions&#x27;)\n\n    cy.get(&#x27;.action-email&#x27;)\n      .type(&#x27;fake@email.com&#x27;)\n      .should(&#x27;have.value&#x27;, &#x27;fake@email.com&#x27;)\n  })\n})\n</code></pre>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cypress.io/\">Cypress</a> is a new front-end testing tool (end2end). It comes as a simple node package and is therefore easy to use and maintain for front-end developers and testers. Cypress has a different approach than selenium, it runs in the browser and in the same loop as the device under test.</p>\n<p>Good:</p>\n<ul>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/cypress-io/cypress\">Open source</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements\">Locally installed</a></li>\n<li>Straightforward (installed via npm and all tests are written in Javascript)</li>\n<li>Good <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell\">documentation</a> and learning material</li>\n<li>Can be run in a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.cypress.io/guides/guides/command-line.html#cypress-run\">headless mode</a></li>\n</ul>\n<p>Not so good:</p>\n<ul>\n<li>No cross-browser testing (only chrome and electron)</li>\n<li>Scenarios with multiple browser tabs can not be tested</li>\n<li>Relatively new test tool, though it is becoming more popular</li>\n</ul>\n<p>Example of a test :</p>\n<pre><code class=\"language-js\">describe(&#x27;My First Test&#x27;, function() {\n  it(&#x27;Visits the Kitchen Sink&#x27;, function() {\n    cy.visit(&#x27;https<span class=\"hljs-symbol\">://example</span>.cypress.io&#x27;)\n\n    cy.contains(&#x27;type&#x27;).click()\n\n    cy.url().should(&#x27;include&#x27;, &#x27;/commands/actions&#x27;)\n\n    cy.get(&#x27;.action-email&#x27;)\n      .type(&#x27;fake@email.com&#x27;)\n      .should(&#x27;have.value&#x27;, &#x27;fake@email.com&#x27;)\n  })\n})\n</code></pre>"
+    },
+    {
+      "name": "Dagger",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://google.github.io/dagger/\">Dagger</a> is a fully static, compile-time <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://en.wikipedia.org/wiki/Dependency_injection\">dependency injection</a> framework for both Java and Android. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://google.github.io/dagger/\">Dagger</a> doesn&#39;t use reflections at runtime, it saves resources. For us, it is a perfect match for Android development.</p>\n<p>We at AOE use it as a base framework for every Android project.</p>",
+      "body": ""
+    },
+    {
+      "name": "Datadog",
+      "ring": "pilot",
+      "quadrant": "Tool",
+      "isNew": "FALSE",
+      "description": "<p>After realizing that AWS CloudWatch isn&#39;t flexible enough, and running our own metrics aggregation, monitoring and altering isn&#39;t something we want to do ourselves, we decided to give Datadog a try. Datadog is very simple to set up and retrieves metrics from the AWS API (and many other integrations) and from an agent running on the EC2 instances. On top of that, it comes with many plugins for services such as Apache, NGINX and ElasticSearch, allowing us to track all important metrics without much effort. Creating dashboards, setting up alarms and integrating into other applications (such as ticket systems) is easy to do and works fine.</p>",
+      "body": ""
+    },
+    {
+      "name": "Docker",
+      "ring": "standard",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>Docker has pulled off very quickly and we updated it to &quot;standard&quot;.</p>",
+      "body": "<p>Docker has pulled off very quickly and we updated it to &quot;standard&quot;.</p>"
+    },
+    {
+      "name": "Drupal",
+      "ring": "trial",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.drupal.org/\">Drupal</a> is an open source content management system and framework based on a PHP stack.\nIt has a huge community, so it&#39;s no wonder it&#39;s among the top 10 CMS worldwide in terms of market share.</p>\n<p>At AOE we consume Drupal mainly headless via JSON API. We appreciate its large feature set and mature plugin system as well as the general ecosystem.</p>\n<p>In addition, the extensive documentation and setup with <a href=\"/techradar/Platform Runtime/ddev.html\">DDEV</a> make it easy to get started.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.drupal.org/\">Drupal</a> is an open source content management system and framework based on a PHP stack.\nIt has a huge community, so it&#39;s no wonder it&#39;s among the top 10 CMS worldwide in terms of market share.</p>\n<p>At AOE we consume Drupal mainly headless via JSON API. We appreciate its large feature set and mature plugin system as well as the general ecosystem.</p>\n<p>In addition, the extensive documentation and setup with <a href=\"/techradar/Platform Runtime/ddev.html\">DDEV</a> make it easy to get started.</p>"
+    },
+    {
+      "name": "Amazon EKS",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aws.amazon.com/de/eks/\">Amazon Elastic Kubernetes Service</a> (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without needing to stand up or maintain your own Kubernetes control plane or workloads.\nAmazon EKS runs Kubernetes control plane instances across multiple Availability Zones to ensure high availability. \nIt also provides automated version upgrades and patching for them.</p>\n<p>Amazon EKS is fully supported by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.aoe.com/techradar/Platform Operations/terraform.html\">Terraform</a> which brings the advantage that its configuration is written in code,\nwhich fulfils the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.aoe.com/techradar/Platform Operations/infrastructure-as-code.html\">infrastructure as code</a> philosophy. Amazon has also implemented important (security) features to their service to ensure that Amazon EKS is well integrated into the broader AWS landscape. Kubernetes version upgrades and security patches are provided in a reliable schedule and with proper documentation. Alongside with the managed service, Amazons also provides it&#39;s own <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aws.amazon.com/de/blogs/opensource/introducing-amazon-eks-distro/\">EKS distribution</a> which closes the gap for on-premise installations.</p>\n<p>Different Amazon EKS Clusters are in use on a variety of environments like development, integration, testing and production.\nWe experienced that Kubernetes version updates are done without major efforts or impact to the running cluster. Along with that, using EKS avoids a lot of low-level optimization and component management which were required in manually configured clusters in the past.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aws.amazon.com/de/eks/\">Amazon Elastic Kubernetes Service</a> (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without needing to stand up or maintain your own Kubernetes control plane or workloads.\nAmazon EKS runs Kubernetes control plane instances across multiple Availability Zones to ensure high availability. \nIt also provides automated version upgrades and patching for them.</p>\n<p>Amazon EKS is fully supported by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.aoe.com/techradar/Platform Operations/terraform.html\">Terraform</a> which brings the advantage that its configuration is written in code,\nwhich fulfils the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.aoe.com/techradar/Platform Operations/infrastructure-as-code.html\">infrastructure as code</a> philosophy. Amazon has also implemented important (security) features to their service to ensure that Amazon EKS is well integrated into the broader AWS landscape. Kubernetes version upgrades and security patches are provided in a reliable schedule and with proper documentation. Alongside with the managed service, Amazons also provides it&#39;s own <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aws.amazon.com/de/blogs/opensource/introducing-amazon-eks-distro/\">EKS distribution</a> which closes the gap for on-premise installations.</p>\n<p>Different Amazon EKS Clusters are in use on a variety of environments like development, integration, testing and production.\nWe experienced that Kubernetes version updates are done without major efforts or impact to the running cluster. Along with that, using EKS avoids a lot of low-level optimization and component management which were required in manually configured clusters in the past.</p>"
+    },
+    {
+      "name": "Elasticsearch",
+      "ring": "standard",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>We are continuing to use Elasticsearch successfully in [Searchperience¬Æ] and have benefited from the aggregation features for related use cases such as rendering category trees.\nWe are also using Elasticsearch for some microservices as our persistence solution.</p>\n<p>This is why we have updated its status to <strong>standard</strong>.</p>",
+      "body": "<p>We are continuing to use Elasticsearch successfully in [Searchperience¬Æ] and have benefited from the aggregation features for related use cases such as rendering category trees.\nWe are also using Elasticsearch for some microservices as our persistence solution.</p>\n<p>This is why we have updated its status to <strong>standard</strong>.</p>"
+    },
+    {
+      "name": "ELK Stack",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>The company behind Elasticsearch offers a very nice solution for logging and analysis of distributed data such as logfiles.</p>\n<p>In today&#39;s increasingly distributed IT systems, it&#39;s very helpful to have a central view of what is going on in your systems - and of course nobody can and wants to look in different logfiles on different servers. A central logging solution provides the option to detect potential relationships between different events more easily. Also, also it can be used to extract useful KPIs or to visualize information on dashboards.</p>\n<p>The abbreviation &quot;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.elastic.co/products\">ELK</a> Stack&quot; stands for the Tools <u>E</u>lasticsearch, <u>L</u>ogstash and <u>K</u>ibana: Together, they provide a solution for collecting data the ability to search, visualize and analyze data in real time.</p>\n<p>Logstash is used to process and forward different data (or logfile) formats. <u>E</u>lasticsearch is used as a search index and together with the Kibana plugin you can configure highly individual dashboards. Recently, there are also the Beats Tools joining this Platform Runtimetack to ship data to Elasticsearch.</p>\n<p>We have been using the ELK Stack for several years now in several projects and different infrastructure setups - we use it to visualize traffic, certain KPIs  or just to analyze and search in application logs. We encourage all teams to use such a solution and take care to write useful logs in your applications.</p>",
+      "body": "<p>The company behind Elasticsearch offers a very nice solution for logging and analysis of distributed data such as logfiles.</p>\n<p>In today&#39;s increasingly distributed IT systems, it&#39;s very helpful to have a central view of what is going on in your systems - and of course nobody can and wants to look in different logfiles on different servers. A central logging solution provides the option to detect potential relationships between different events more easily. Also, also it can be used to extract useful KPIs or to visualize information on dashboards.</p>\n<p>The abbreviation &quot;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.elastic.co/products\">ELK</a> Stack&quot; stands for the Tools <u>E</u>lasticsearch, <u>L</u>ogstash and <u>K</u>ibana: Together, they provide a solution for collecting data the ability to search, visualize and analyze data in real time.</p>\n<p>Logstash is used to process and forward different data (or logfile) formats. <u>E</u>lasticsearch is used as a search index and together with the Kibana plugin you can configure highly individual dashboards. Recently, there are also the Beats Tools joining this Platform Runtimetack to ship data to Elasticsearch.</p>\n<p>We have been using the ELK Stack for several years now in several projects and different infrastructure setups - we use it to visualize traffic, certain KPIs  or just to analyze and search in application logs. We encourage all teams to use such a solution and take care to write useful logs in your applications.</p>"
+    },
+    {
+      "name": "Flamingo",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>Flamingo is a high productivity go based framework for rapidly building fast and pluggable web projects.\nIt is used to build scalable and maintainable (web)applications.</p>\n<p>Flamingo is:</p>\n<ul>\n<li>open source</li>\n<li>written in go</li>\n<li>easy to learn</li>\n<li>fast and flexible</li>\n</ul>\n<p>Go as simple, powerful and typesafe language is great to implement and scale serverside logic.\nFlamingo has a clean architecture with clear dependencies in mind and offers a typical features and support for nowadays web applications:</p>\n<ul>\n<li>Powerful Templating Engines. E.g. support for Pug templates with reusable mixins and lightweight scripting.</li>\n<li>Configuration concepts using yml and support for multiple areas and contexts</li>\n<li>Powerful Dependency Injection</li>\n<li>A Module concept for building modular and pluggable applications</li>\n<li>Authentication concepts and security middleware</li>\n<li>Flexible routing with support for prefix routes and reverse routing</li>\n<li>Web Controller Support with: Request / Response / Form Handling etc</li>\n<li>Operational Readyness: Logging, (distributed) Tracing, Metrics and Healthchecks with seperate endpoint</li>\n<li>Localisation</li>\n<li>Commands</li>\n<li>Sessionhandling and Management</li>\n<li>GraphQL support and therefore support to build nice SPA and PWAs on top of it</li>\n<li>Resilience and Caching for external APIs calls.</li>\n</ul>\n<p>Flamingo itself does not contain ORM Mapper or libraries - instead it emphasizes <a href=\"/techradar/Platform Experiences/ports-and-adapters.html\">&quot;ports and adapters&quot;</a>  architecture - so that you have a technology free (domain) model and any possible (and replaceable) persitence behind it.\nThat makes Flamingo useful to build microservices and applications - especially to build &quot;frontends&quot; or portals that require interaction with other (micro) services in a distributed architecture. \nWhen sticking to the architectural recommendation you can build modular applications with replaceable adapters that gives you independed testability.</p>\n<p>With <strong>&quot;Flamingo Commerce&quot;</strong> there is an additional active projects that offer rich and flexible features to build modern e-commerce applications.</p>",
+      "body": "<p>Flamingo is a high productivity go based framework for rapidly building fast and pluggable web projects.\nIt is used to build scalable and maintainable (web)applications.</p>\n<p>Flamingo is:</p>\n<ul>\n<li>open source</li>\n<li>written in go</li>\n<li>easy to learn</li>\n<li>fast and flexible</li>\n</ul>\n<p>Go as simple, powerful and typesafe language is great to implement and scale serverside logic.\nFlamingo has a clean architecture with clear dependencies in mind and offers a typical features and support for nowadays web applications:</p>\n<ul>\n<li>Powerful Templating Engines. E.g. support for Pug templates with reusable mixins and lightweight scripting.</li>\n<li>Configuration concepts using yml and support for multiple areas and contexts</li>\n<li>Powerful Dependency Injection</li>\n<li>A Module concept for building modular and pluggable applications</li>\n<li>Authentication concepts and security middleware</li>\n<li>Flexible routing with support for prefix routes and reverse routing</li>\n<li>Web Controller Support with: Request / Response / Form Handling etc</li>\n<li>Operational Readyness: Logging, (distributed) Tracing, Metrics and Healthchecks with seperate endpoint</li>\n<li>Localisation</li>\n<li>Commands</li>\n<li>Sessionhandling and Management</li>\n<li>GraphQL support and therefore support to build nice SPA and PWAs on top of it</li>\n<li>Resilience and Caching for external APIs calls.</li>\n</ul>\n<p>Flamingo itself does not contain ORM Mapper or libraries - instead it emphasizes <a href=\"/techradar/Platform Experiences/ports-and-adapters.html\">&quot;ports and adapters&quot;</a>  architecture - so that you have a technology free (domain) model and any possible (and replaceable) persitence behind it.\nThat makes Flamingo useful to build microservices and applications - especially to build &quot;frontends&quot; or portals that require interaction with other (micro) services in a distributed architecture. \nWhen sticking to the architectural recommendation you can build modular applications with replaceable adapters that gives you independed testability.</p>\n<p>With <strong>&quot;Flamingo Commerce&quot;</strong> there is an additional active projects that offer rich and flexible features to build modern e-commerce applications.</p>"
+    },
+    {
+      "name": "Flow",
+      "ring": "watch",
+      "quadrant": "Language & Framework",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://flow.neos.io/\">Flow</a> is a PHP web application framework developed for the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.neos.io/\">Neos</a> project.</p>\n<p>We used Flow in a couple of projects and decided to put it on watch for the following reasons:</p>\n<ul>\n<li>  slow during development and hard to debug because of its need to &quot;compile&quot; the application to integrate e.g. AOP</li>\n<li>  limited documentation and community</li>\n<li>  development of the framework is closely coupled to the progress of the Neos project</li>\n</ul>\n<p>Although it could be that some of the above-mentioned aspects have improved in the past, we decided to use other PHP frameworks such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/\">Symfony</a> or other Languages (See <a href=\"/techradar/UX Fabric/go-lang.html\">Go</a>; <a href=\"/techradar/UX Fabric/play-framework.html\">Play Framework</a>; <a href=\"/techradar/UX Fabric/spring-boot.html\">Spring Boot</a>)</p>",
+      "body": ""
+    },
+    {
+      "name": "Flux",
+      "ring": "pilot",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://facebook.github.io/flux/\">Flux</a> is an application architecture for building client-side web applications,\nwhich is based on React&#39;s composable view components.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://facebook.github.io/flux/\">Flux</a> is an application architecture for building client-side web applications,\nwhich is based on React&#39;s composable view components.</p>"
+    },
+    {
+      "name": "Galen",
+      "ring": "pilot",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://galenframework.com/\">Galen Framework</a>, layout testing can be automated to save you a lot of manual work. With its own specification language (Galen Spec), you can write tests to verify the correct look of the web page as well as the location and alignment of specific elements on a page.</p>\n<p>So, you can write simple tests such as &quot;The button should be green&quot; as well as more complex behavior specifications such as &quot;On mobile devices the button should be inside the viewport&quot;. Especially when testing a responsive website on multiple devices, browsers and resolutions, the manual testing effort gets expensive. To help with that, Galen runs its specifications fully automated with Selenium against the required browsers and devices.</p>\n<p>Whenever a test fails Galen writes a test report with screenshots to show the mismatching areas on the page to help testers and developers become aware of the problem.</p>\n<p>At AOE, the Galen Framework helps us to continuously test the UI for potential regression bugs introduced by new features.</p>",
+      "body": ""
+    },
+    {
+      "name": "Gatling",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>Gatling is now the de-facto tool of choice for load testing in all of our\nprojects, having superseded JMeter completely. We therefore moved it to the\n<strong>Adopt</strong> level. </p>",
+      "body": "<p>Gatling is now the de-facto tool of choice for load testing in all of our\nprojects, having superseded JMeter completely. We therefore moved it to the\n<strong>Adopt</strong> level. </p>"
+    },
+    {
+      "name": "GitFlow",
+      "ring": "watch",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Ever since there are recurring discussions about the version control strategy that a team should use.</p>\n<p>We have also made the experience when new teams start off with using blocking or long lived feature branches (merge late once all review comments are done) it has a negative impact on team performance.</p>\n<p>We recommend to use trunk based development with short lived (&lt;1day) feature branches, because this has shown to support continuous integration and team collaboration the best. However we do accept teams choices to use GitFlow, we just do not try to encourage them in the first place.</p>\n<p>See also:</p>\n<ul>\n<li>trunk based development <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://trunkbaseddevelopment.com/\">https://trunkbaseddevelopment.com/</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://medium.com/@fagnerbrack/one-commit-one-change-3d10b10cebbf\">https://medium.com/@fagnerbrack/one-commit-one-change-3d10b10cebbf</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://martinfowler.com/bliki/FeatureBranch.html\">https://martinfowler.com/bliki/FeatureBranch.html</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.continuousdeliveryconsulting.com/blog/organisation-antipattern-build-feature-branching/\">https://www.continuousdeliveryconsulting.com/blog/organisation-antipattern-build-feature-branching/</a></li>\n</ul>",
+      "body": "<p>Ever since there are recurring discussions about the version control strategy that a team should use.</p>\n<p>We have also made the experience when new teams start off with using blocking or long lived feature branches (merge late once all review comments are done) it has a negative impact on team performance.</p>\n<p>We recommend to use trunk based development with short lived (&lt;1day) feature branches, because this has shown to support continuous integration and team collaboration the best. However we do accept teams choices to use GitFlow, we just do not try to encourage them in the first place.</p>\n<p>See also:</p>\n<ul>\n<li>trunk based development <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://trunkbaseddevelopment.com/\">https://trunkbaseddevelopment.com/</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://medium.com/@fagnerbrack/one-commit-one-change-3d10b10cebbf\">https://medium.com/@fagnerbrack/one-commit-one-change-3d10b10cebbf</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://martinfowler.com/bliki/FeatureBranch.html\">https://martinfowler.com/bliki/FeatureBranch.html</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.continuousdeliveryconsulting.com/blog/organisation-antipattern-build-feature-branching/\">https://www.continuousdeliveryconsulting.com/blog/organisation-antipattern-build-feature-branching/</a></li>\n</ul>"
+    },
+    {
+      "name": "Gitlab",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Moved to &quot;standard&quot;: Gitlab has proven to be a very useful tool for code and the collaboration around it.\nWith <a href=\"/techradar/Platform Runtime/gitlab-ci.html\">Gitlab CI</a> there is also a powerful tool to automate continuous integration and delivery.</p>",
+      "body": "<p>Moved to &quot;standard&quot;: Gitlab has proven to be a very useful tool for code and the collaboration around it.\nWith <a href=\"/techradar/Platform Runtime/gitlab-ci.html\">Gitlab CI</a> there is also a powerful tool to automate continuous integration and delivery.</p>"
+    },
+    {
+      "name": "Gitlab CI",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Moved to &quot;standard&quot;.</p>",
+      "body": "<p>Moved to &quot;standard&quot;.</p>"
+    },
+    {
+      "name": "Go / Golang",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>We have moved Go to &quot;standard&quot;.</p>",
+      "body": "<p>We have moved Go to &quot;standard&quot;.</p>"
+    },
+    {
+      "name": "Gradle",
+      "ring": "standard",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>Gradle is a build automation tool originating in the Java space, providing declarative dependency management (like Maven) and support for custom functionality (like Ant). It has superb multi-project support and is extremely extensible via third-party plugins and also via self-written extensions and plugins that make it outstanding in its area.</p>\n<p>It uses a Groovy-based DSL to declaratively model your problem domain (Build automation) and provides a rich object model with extension points to customize the build logic. Because it is extremely easy to extend this DSL, you can easily provide a declarative interface to your customizations and add-ons.</p>\n<p>While providing plugins for building libs, apps and webapps in Java, Groovy and Scala out of the box it is not tied to the JVM as target platform, which is impressively shown by the native build support for C / C++.</p>\n<p>At AOE, it is used in various places already: to build <a href=\"/techradar/Platform Runtime/anypoint-platform.html\">Anypoint</a>- and <a href=\"/techradar/UX Fabric/spring-boot.html\">Spring Boot-</a> based applications; to build Android Apps; to automate the creation of Jenkins Jobs; to create Docker images and Debian packages and also do some deployment scripting with it.</p>",
+      "body": "<p>Gradle is a build automation tool originating in the Java space, providing declarative dependency management (like Maven) and support for custom functionality (like Ant). It has superb multi-project support and is extremely extensible via third-party plugins and also via self-written extensions and plugins that make it outstanding in its area.</p>\n<p>It uses a Groovy-based DSL to declaratively model your problem domain (Build automation) and provides a rich object model with extension points to customize the build logic. Because it is extremely easy to extend this DSL, you can easily provide a declarative interface to your customizations and add-ons.</p>\n<p>While providing plugins for building libs, apps and webapps in Java, Groovy and Scala out of the box it is not tied to the JVM as target platform, which is impressively shown by the native build support for C / C++.</p>\n<p>At AOE, it is used in various places already: to build <a href=\"/techradar/Platform Runtime/anypoint-platform.html\">Anypoint</a>- and <a href=\"/techradar/UX Fabric/spring-boot.html\">Spring Boot-</a> based applications; to build Android Apps; to automate the creation of Jenkins Jobs; to create Docker images and Debian packages and also do some deployment scripting with it.</p>"
+    },
+    {
+      "name": "Grafana",
+      "ring": "standard",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>Updated to &quot;standard&quot;</p>",
+      "body": "<p>Updated to &quot;standard&quot;</p>"
+    },
+    {
+      "name": "GraphQL",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. GraphQL isn&#39;t tied to any specific database or storage engine and is instead backed by your existing code and data.</p>\n<p>GraphQL was developed by Facebook around 2010 and releases 2015. \nThe main challenge it solves is to improve communication between browser and server on high dynamic web apps.</p>\n<p>The advantages are:</p>\n<ul>\n<li>schema and schema validation together with a useful type system</li>\n<li>the client (browser) controls what data should be send (data reduction)</li>\n<li>whith one request you can fetch &quot;all&quot; required data</li>\n</ul>\n<p>We are using it together with <a href=\"/techradar/Platform Runtime/apollo-client.html\">Apollo Client</a> in our <a href=\"/techradar/UX Fabric/react.html\">React.js</a> based frontend.\nThis way the React components have their relevant GraphQL snippet, defining what data they request or mutate from the &quot;backend for frontend&quot;, directly coupled. \nThat makes it transparent what data is available. Apollo takes care of sending an aggregated GraphQL query to the backend.</p>\n<p>The framework <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.flamingo.me/3.%20Flamingo%20Modules/graphql.html\">Flamingo offers support for GraphQL</a> and also Flamingo Commerce offers a full featured GraphQL API for e-commerce features. (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://demoshop.flamingo.me/en/graphql-console\">Example GraphQL Console for Commerce</a>)</p>",
+      "body": "<p>GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. GraphQL isn&#39;t tied to any specific database or storage engine and is instead backed by your existing code and data.</p>\n<p>GraphQL was developed by Facebook around 2010 and releases 2015. \nThe main challenge it solves is to improve communication between browser and server on high dynamic web apps.</p>\n<p>The advantages are:</p>\n<ul>\n<li>schema and schema validation together with a useful type system</li>\n<li>the client (browser) controls what data should be send (data reduction)</li>\n<li>whith one request you can fetch &quot;all&quot; required data</li>\n</ul>\n<p>We are using it together with <a href=\"/techradar/Platform Runtime/apollo-client.html\">Apollo Client</a> in our <a href=\"/techradar/UX Fabric/react.html\">React.js</a> based frontend.\nThis way the React components have their relevant GraphQL snippet, defining what data they request or mutate from the &quot;backend for frontend&quot;, directly coupled. \nThat makes it transparent what data is available. Apollo takes care of sending an aggregated GraphQL query to the backend.</p>\n<p>The framework <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.flamingo.me/3.%20Flamingo%20Modules/graphql.html\">Flamingo offers support for GraphQL</a> and also Flamingo Commerce offers a full featured GraphQL API for e-commerce features. (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://demoshop.flamingo.me/en/graphql-console\">Example GraphQL Console for Commerce</a>)</p>"
+    },
+    {
+      "name": "Groovy",
+      "ring": "watch",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>Since the rise of Kotlin, we seen no need why to still use Groovy as an alternative to Java running on the JVM.</p>",
+      "body": "<p>Since the rise of Kotlin, we seen no need why to still use Groovy as an alternative to Java running on the JVM.</p>"
+    },
+    {
+      "name": "GRPC",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>We standarded GRPC, because its used on multiple places within our microservice oriented architectures for internal communication.</p>",
+      "body": "<p>We standarded GRPC, because its used on multiple places within our microservice oriented architectures for internal communication.</p>"
+    },
+    {
+      "name": "Grunt",
+      "ring": "watch",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>Grunt is a JavaScript task runner that automates repetitive tasks. While Grunt served us well for a good amount of projects,\nother alternatives such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://gulpjs.com/\">Gulp</a> emerged in the meantime and proved to be a better pick for the\nmajority of our teams.</p>\n<p>We have two main reasons for discarding Grunt in favor of other Platform Runtime:</p>\n<h3 id=\"speed\">Speed</h3>\n<p>If a decent amount of tasks is reached, Grunt is known to run slower than other Platform Runtime, because it heavily relies on I/O operations and\nalways stores the result of one task as files on the disk.</p>\n<h3 id=\"configuration\">Configuration</h3>\n<p>On large projects where a lot of automation is required, it can get very tedious to maintain complex and parallel running tasks.\nThe grunt configuration files sometimes simply don¬¥t gave us the flexibility that we needed.</p>\n<p>Currently our preferred way to go is either simply use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/misc/scripts\">NPM scripts</a> or rely on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://webpack.js.org/concepts/loaders/\">Webpack loaders</a> for file preprocessing. For non-webpack projects we also utilize Gulp.</p>",
+      "body": ""
+    },
+    {
+      "name": "Gulp",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>Gulp is a javascript task runner much like Grunt. The tasks are written in javascript code.</p>\n<p>It is a tool that helps you automate numerous tasks surrounding web development. A typical use is to configure preprocessors for Sass, to compile CSS or to optimize CSS, Javascript and Images.</p>\n<p>With Gulp and its many plugins you can also do stuff such as start a web server and reload the browser if changes happen.</p>\n<p>To get started you need to install Gulp on your machine via npm.</p>\n<pre><code class=\"language-javascript\">npm <span class=\"hljs-keyword\">install</span> gulp -g\n</code></pre>\n<p>You also need it locally in your project, so you have to install it as a dependency in your project .</p>\n<pre><code class=\"language-javascript\">npm install gulp --<span class=\"hljs-built_in\">save</span>-<span class=\"hljs-built_in\">dev</span>\n</code></pre>\n<p>You can split your tasks into various smaller sub-tasks and even split it up into smaller files.</p>\n<p>A basic Gulp task can look like this:</p>\n<pre><code class=\"language-javascript\"><span class=\"hljs-keyword\">const</span> gulp = <span class=\"hljs-built_in\">require</span>(<span class=\"hljs-string\">&#x27;gulp&#x27;</span>);\n<span class=\"hljs-comment\">// Requires the gulp-sass plugin</span>\n<span class=\"hljs-keyword\">const</span> sass = <span class=\"hljs-built_in\">require</span>(<span class=\"hljs-string\">&#x27;gulp-sass&#x27;</span>);\n<span class=\"hljs-keyword\">const</span> autoprefixer = <span class=\"hljs-built_in\">require</span>(<span class=\"hljs-string\">&#x27;gulp-autoprefixer&#x27;</span>);\n<span class=\"hljs-keyword\">const</span> cssnano = <span class=\"hljs-built_in\">require</span>(<span class=\"hljs-string\">&#x27;gulp-cssnano&#x27;</span>);\n\ngulp.<span class=\"hljs-title function_\">task</span>(<span class=\"hljs-string\">&#x27;sass&#x27;</span>, <span class=\"hljs-keyword\">function</span>(<span class=\"hljs-params\"></span>){\n  <span class=\"hljs-keyword\">return</span> gulp.<span class=\"hljs-title function_\">src</span>(<span class=\"hljs-string\">&#x27;app/scss/**/*.scss&#x27;</span>) <span class=\"hljs-comment\">// tell gulp where your source files are</span>\n    .<span class=\"hljs-title function_\">pipe</span>(<span class=\"hljs-title function_\">sass</span>()) <span class=\"hljs-comment\">// Converts sass into css with the help of a gulp plugin called gulp-sass</span>\n    .<span class=\"hljs-title function_\">pipe</span>(<span class=\"hljs-title function_\">autoprefixer</span>({<span class=\"hljs-attr\">browsers</span>: [<span class=\"hljs-string\">&#x27;last 2 versions&#x27;</span>]})) <span class=\"hljs-comment\">// auto prefixes the css for the last 2 versions of browser, like ie9 specific css</span>\n    .<span class=\"hljs-title function_\">pipe</span>(<span class=\"hljs-title function_\">cssnano</span>()) <span class=\"hljs-comment\">// minify the css</span>\n    .<span class=\"hljs-title function_\">pipe</span>(gulp.<span class=\"hljs-title function_\">dest</span>(<span class=\"hljs-string\">&#x27;app/css&#x27;</span>)) <span class=\"hljs-comment\">// tell gulp where to put the converted file. this is the first time where a file is written</span>\n});\n</code></pre>\n<p>you can now run this task simply by executing the following command in your terminal:</p>\n<pre><code class=\"language-javascript\"><span class=\"hljs-attribute\">gulp sass</span>\n</code></pre>",
+      "body": ""
+    },
+    {
+      "name": "Helm",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://helm.sh/\">Helm</a> is a package manager for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://kubernetes.io/\">Kubernetes</a>, which simplifies the deployment\nof applications into a Kubernetes cluster and provides additional features like e.g. versioning and rollbacks.</p>",
+      "body": ""
+    },
+    {
+      "name": "Hystrix",
+      "ring": "pilot",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Hystrix is not actively mainatined anymore and some of its goals can now be handled with service meshs.</p>",
+      "body": "<p>Hystrix is not actively mainatined anymore and some of its goals can now be handled with service meshs.</p>"
+    },
+    {
+      "name": "imgix",
+      "ring": "pilot",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imgix.com/\">Imgix</a> is an SaaS solution for delivering and processing images. When developing responsive websites, you will quickly reach the point where you need various versions of your images to achieve a good responsive user interface. You want high quality versions for retina displays but small versions for mobile devices with a slow Internet connection.</p>\n<p>Especially when dealing with user-generated uploads, it is getting hard to create different versions for any supported device and breakpoint of your web page. Doing this manually is hardly an option.</p>\n<p>At AOE, we decided to use imgix as an image processing service for some projects to solve this problem. The benefits of imgix are the simple API to create responsive images in real-time as well as the fast delivery over their CDN.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imgix.com/\">Imgix</a> is an SaaS solution for delivering and processing images. When developing responsive websites, you will quickly reach the point where you need various versions of your images to achieve a good responsive user interface. You want high quality versions for retina displays but small versions for mobile devices with a slow Internet connection.</p>\n<p>Especially when dealing with user-generated uploads, it is getting hard to create different versions for any supported device and breakpoint of your web page. Doing this manually is hardly an option.</p>\n<p>At AOE, we decided to use imgix as an image processing service for some projects to solve this problem. The benefits of imgix are the simple API to create responsive images in real-time as well as the fast delivery over their CDN.</p>"
+    },
+    {
+      "name": "Infrastructure as Code",
+      "ring": "standard",
+      "quadrant": "Concept",
+      "isNew": "FALSE",
+      "description": "<p>Updated to &quot;standard&quot;</p>",
+      "body": "<p>Updated to &quot;standard&quot;</p>"
+    },
+    {
+      "name": "Invision",
+      "ring": "trial",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Invision is an online tool used to work and collaborate on design and prototypes and to share them between clients and the team.</p>\n<p>We use it in many projects now to present prototypes and designs and it helps in understanding the planned user experience.\nAlso, we use this directly as a reference from the user stories to help the development teams in understanding and implementing the right frontend and backend functionalities.</p>",
+      "body": "<p>Invision is an online tool used to work and collaborate on design and prototypes and to share them between clients and the team.</p>\n<p>We use it in many projects now to present prototypes and designs and it helps in understanding the planned user experience.\nAlso, we use this directly as a reference from the user stories to help the development teams in understanding and implementing the right frontend and backend functionalities.</p>"
+    },
+    {
+      "name": "Jaeger",
+      "ring": "trial",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.jaegertracing.io/\">Jaeger</a> is a tool for <a href=\"/techradar/Platform Operations/distributed-tracing.html\">Distributed Tracing</a>. Developed at Uber and inspired by Dapper and OpenZipkin it grew into an <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cncf.io/\">Cloud Native Computing Foundation</a> project.</p>\n<p>Jaeger is a great tool for troubleshooting distributed systems, such as microservice architectures. Developers and Operation can quickly see communicaiton between services, and what data is communicated where.\nErrors in services can be traced to the originating system. Global trace identifiers are communicated using B3 headers. Jaeger supports Zipkin, which allows easy migration von OpenZipkin &amp; co.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.jaegertracing.io/\">Jaeger</a> is a tool for <a href=\"/techradar/Platform Operations/distributed-tracing.html\">Distributed Tracing</a>. Developed at Uber and inspired by Dapper and OpenZipkin it grew into an <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cncf.io/\">Cloud Native Computing Foundation</a> project.</p>\n<p>Jaeger is a great tool for troubleshooting distributed systems, such as microservice architectures. Developers and Operation can quickly see communicaiton between services, and what data is communicated where.\nErrors in services can be traced to the originating system. Global trace identifiers are communicated using B3 headers. Jaeger supports Zipkin, which allows easy migration von OpenZipkin &amp; co.</p>"
+    },
+    {
+      "name": "Jest",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>Updated to &quot;standard&quot;.</p>",
+      "body": "<p>Updated to &quot;standard&quot;.</p>"
+    },
+    {
+      "name": "Job DSL (Jenkins)",
+      "ring": "trial",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin\">Job DSL </a>is a plugin for the Jenkins automation server. Jenkins jobs that automate parts of a software project are usually configured using the web interface of Jenkins. If Jenkins is the choice for your project and the number of build jobs tend to grow, the Job DSL plugin is your friend.</p>\n<p>The plugin allows Jenkins jobs to be described by code (Groovy DSL). This code is then used for generating Jenkins jobs. As a consequence, job configuration can be part of the project&#39;s source code. During the generation step, existing jobs are synchronized, overwritten or left alone, depending on the configuration. The same configuration manages deleting or ignoring jobs that are not described in code anymore. Jobs can easily be restored in case of data loss and changed without clicking buttons for hours. The automation also makes it easy to seed large numbers of homogeneous components and builds on different branches.</p>\n<p>The ability to treat Jenkins jobs as code is a big advantage. We highly suggest that every team automate the setup of their jobs and their pipelines. Another way of expressing build pipelines as code is the new <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://jenkins.io/doc/book/pipeline/\">Jenkins Pipeline</a> feature - but still we see the need of Job DSL seeder jobs to seed the Jenkins pipeline jobs themselves and any additional jobs.</p>",
+      "body": "<p>The <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin\">Job DSL </a>is a plugin for the Jenkins automation server. Jenkins jobs that automate parts of a software project are usually configured using the web interface of Jenkins. If Jenkins is the choice for your project and the number of build jobs tend to grow, the Job DSL plugin is your friend.</p>\n<p>The plugin allows Jenkins jobs to be described by code (Groovy DSL). This code is then used for generating Jenkins jobs. As a consequence, job configuration can be part of the project&#39;s source code. During the generation step, existing jobs are synchronized, overwritten or left alone, depending on the configuration. The same configuration manages deleting or ignoring jobs that are not described in code anymore. Jobs can easily be restored in case of data loss and changed without clicking buttons for hours. The automation also makes it easy to seed large numbers of homogeneous components and builds on different branches.</p>\n<p>The ability to treat Jenkins jobs as code is a big advantage. We highly suggest that every team automate the setup of their jobs and their pipelines. Another way of expressing build pipelines as code is the new <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://jenkins.io/doc/book/pipeline/\">Jenkins Pipeline</a> feature - but still we see the need of Job DSL seeder jobs to seed the Jenkins pipeline jobs themselves and any additional jobs.</p>"
+    },
+    {
+      "name": "Keycloak",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>Most distributed systems still face a growing demand for user management, authentication, authorization and Single sign-on. In light of a growing security demand and specialization, the Open Source project JBoss Keycloak is a perfect match. </p>\n<p>Keyloak has been a growing project from the outset and has a strong community. Keyloak is based on standards such as OAuth2, OIDC and SAML2. Securing a distributed system is supported by adapters, which are provided by Keycloak developers for different technology stacks. If there is no adapter for your technology stack, an integration on the protocol level with a library is simple. Many configurable features require no coding in the integrated projects. The required configuration is managed via code and promoted as usual. </p>\n<p>We use Keycloak in our OM3 suite for several authentication-related use cases ‚Äì such as user management for system users and Single sign-on for customers. The OAuth access tokens can be used to secure APIs that access sensitive information. In addition, Keycloak is part of the AOE infrastructure and helps in securing the various services to support employees and customers.</p>",
+      "body": "<p>Most distributed systems still face a growing demand for user management, authentication, authorization and Single sign-on. In light of a growing security demand and specialization, the Open Source project JBoss Keycloak is a perfect match. </p>\n<p>Keyloak has been a growing project from the outset and has a strong community. Keyloak is based on standards such as OAuth2, OIDC and SAML2. Securing a distributed system is supported by adapters, which are provided by Keycloak developers for different technology stacks. If there is no adapter for your technology stack, an integration on the protocol level with a library is simple. Many configurable features require no coding in the integrated projects. The required configuration is managed via code and promoted as usual. </p>\n<p>We use Keycloak in our OM3 suite for several authentication-related use cases ‚Äì such as user management for system users and Single sign-on for customers. The OAuth access tokens can be used to secure APIs that access sensitive information. In addition, Keycloak is part of the AOE infrastructure and helps in securing the various services to support employees and customers.</p>"
+    },
+    {
+      "name": "Kotlin",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>Kotlin is used successfully in production by multiple teams.</p>\n<p>Kotlin is 100% interoperable with Java. It means the code can live side-by-side in one code base and interact.\nFrom the beginning it was designed with practical thought in mind. So the IDE Support in IntelliJ is really great.  </p>\n<p>The Spring Framework Developer put a lot of effort that Springs play well together with Kotlin. </p>\n<p>With it&#39;s concise syntax, null safety, \nDue to its explicit type system, this language is also great replacement for Groovy usage with Gradle.</p>",
+      "body": "<p>Kotlin is used successfully in production by multiple teams.</p>\n<p>Kotlin is 100% interoperable with Java. It means the code can live side-by-side in one code base and interact.\nFrom the beginning it was designed with practical thought in mind. So the IDE Support in IntelliJ is really great.  </p>\n<p>The Spring Framework Developer put a lot of effort that Springs play well together with Kotlin. </p>\n<p>With it&#39;s concise syntax, null safety, \nDue to its explicit type system, this language is also great replacement for Groovy usage with Gradle.</p>"
+    },
+    {
+      "name": "Kubernetes",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Kubernetes has developed into the quasi-standard for container orchestration: Nearly every cloud provider provides managed Kubernetes, and even Docker Enterprise uses Kubernetes.\nWe are running several production systems with Kubernetes and we are using it in concepts such as:</p>\n<ul>\n<li>&quot;secrets&quot; and &quot;configmaps&quot; to manage configurations for the applications. By updating these resources with an automated configuration pipeline you have a great method for configuration management.</li>\n<li>Autoscaling of Kubernetes nodes and the usage of &quot;horizontal pod scaling&quot; inside Kubernetes allows elastic scaling</li>\n<li>The support of managing permissions with OAuth allows you to secure Kubernetes with <a href=\"/techradar/Platform Runtime/keycloak.html\">Keycloak</a> (SSO)</li>\n<li>Kubernetes extensibility and API can be used for automation and customization. There is a growing ecosystem around extensions, which adds additional features.</li>\n</ul>",
+      "body": "<p>Kubernetes has developed into the quasi-standard for container orchestration: Nearly every cloud provider provides managed Kubernetes, and even Docker Enterprise uses Kubernetes.\nWe are running several production systems with Kubernetes and we are using it in concepts such as:</p>\n<ul>\n<li>&quot;secrets&quot; and &quot;configmaps&quot; to manage configurations for the applications. By updating these resources with an automated configuration pipeline you have a great method for configuration management.</li>\n<li>Autoscaling of Kubernetes nodes and the usage of &quot;horizontal pod scaling&quot; inside Kubernetes allows elastic scaling</li>\n<li>The support of managing permissions with OAuth allows you to secure Kubernetes with <a href=\"/techradar/Platform Runtime/keycloak.html\">Keycloak</a> (SSO)</li>\n<li>Kubernetes extensibility and API can be used for automation and customization. There is a growing ecosystem around extensions, which adds additional features.</li>\n</ul>"
+    },
+    {
+      "name": "Maintain third party packages",
+      "ring": "watch",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Rebuilding and packaging software from &quot;third parties&quot; (e.g. PHP, MySQL, Redis, Nginx, Java,...) implies starting to maintain the packaging for the desired distribution.</p>\n<p>Even with tool support and targeted for automation, we found that building those packages is very often unstable. The effort to keep up with the upstream changes (security changes, fixes, etc...) exceeds the benefit in most cases. We prefer to not create our own packages and rather use what&#39;s available in the distribution repository.</p>",
+      "body": "<p>Rebuilding and packaging software from &quot;third parties&quot; (e.g. PHP, MySQL, Redis, Nginx, Java,...) implies starting to maintain the packaging for the desired distribution.</p>\n<p>Even with tool support and targeted for automation, we found that building those packages is very often unstable. The effort to keep up with the upstream changes (security changes, fixes, etc...) exceeds the benefit in most cases. We prefer to not create our own packages and rather use what&#39;s available in the distribution repository.</p>"
+    },
+    {
+      "name": "Micro Frontends",
+      "ring": "trial",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>When deciding on a system architecture we are always striving for technology neutralism. This is to allow us to stay\nflexible with future decisions. Micro Frontends can be a tool to support us with this goal.\nWe favor protocols and methods, such as plain HTML and HTTP, over specific technologies when designing Micro Frontends.</p>\n<p>Since Micro Frontends have proven to allow use move fast and agile, we moved this pattern to &quot;trial&quot;.</p>",
+      "body": "<p>When deciding on a system architecture we are always striving for technology neutralism. This is to allow us to stay\nflexible with future decisions. Micro Frontends can be a tool to support us with this goal.\nWe favor protocols and methods, such as plain HTML and HTTP, over specific technologies when designing Micro Frontends.</p>\n<p>Since Micro Frontends have proven to allow use move fast and agile, we moved this pattern to &quot;trial&quot;.</p>"
+    },
+    {
+      "name": "Microservices",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>We continue to belief in the microservices concept and its related patterns and best practices. However, it&#39;s worth mentioning that we we had to learn some lessons when it came to resilient thinking and deployment-related dependencies between microservices.</p>\n<p>We feel that our microservice-based applications are more robust than monolithic ones have been. Thanks to the \nsplit of the overall complexity into multiple services, new employees or team members are becoming productive within days or a few weeks.</p>\n<p>In order to get microservices right and to benefit from the advantages, there is a lot more required.\nThe following &quot;pyramid of need&quot; for microservices shows this:\n<img src=\"/techradar/images/microservices-pyramid.png\" alt=\"microservices pyramid of need\"></p>",
+      "body": "<p>We continue to belief in the microservices concept and its related patterns and best practices. However, it&#39;s worth mentioning that we we had to learn some lessons when it came to resilient thinking and deployment-related dependencies between microservices.</p>\n<p>We feel that our microservice-based applications are more robust than monolithic ones have been. Thanks to the \nsplit of the overall complexity into multiple services, new employees or team members are becoming productive within days or a few weeks.</p>\n<p>In order to get microservices right and to benefit from the advantages, there is a lot more required.\nThe following &quot;pyramid of need&quot; for microservices shows this:\n<img src=\"/techradar/images/microservices-pyramid.png\" alt=\"microservices pyramid of need\"></p>"
+    },
+    {
+      "name": "MLOps",
+      "ring": "pilot",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>After spending some time diving into the world of data science and machine learning we&#39;re realizing our existing DevOps best practices aren&#39;t a perfect fit for the specific workflows we&#39;re seeing here. Data science is not only about code but also all about managing large datasets and models. Data is being analyzed, models are being trained in many iterations and then software needs to be deployed that does the actual prediction/inference. And this circle (see: CRISP-DM) will repeat over and over again during the development phase and after the first production release. &quot;<strong>MLOps</strong>&quot; extends the DevOps best practices in order to cover these new scenarios specific to machine learning workflows. \n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dvc.org/\">DVC</a> helps dealing with large data sets and models by connecting external storage to your Git repositories and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cml.dev/\">CML</a> helps integrating the CI/CD into your GitHub or GitLab workflows. \nSince we&#39;re already using Kubernetes extensively we&#39;re exploring <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.kubeflow.org/\">kubeflow</a> for running the full machine learning workflow on Kubernetes clusters.</p>",
+      "body": "<p>After spending some time diving into the world of data science and machine learning we&#39;re realizing our existing DevOps best practices aren&#39;t a perfect fit for the specific workflows we&#39;re seeing here. Data science is not only about code but also all about managing large datasets and models. Data is being analyzed, models are being trained in many iterations and then software needs to be deployed that does the actual prediction/inference. And this circle (see: CRISP-DM) will repeat over and over again during the development phase and after the first production release. &quot;<strong>MLOps</strong>&quot; extends the DevOps best practices in order to cover these new scenarios specific to machine learning workflows. \n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dvc.org/\">DVC</a> helps dealing with large data sets and models by connecting external storage to your Git repositories and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cml.dev/\">CML</a> helps integrating the CI/CD into your GitHub or GitLab workflows. \nSince we&#39;re already using Kubernetes extensively we&#39;re exploring <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.kubeflow.org/\">kubeflow</a> for running the full machine learning workflow on Kubernetes clusters.</p>"
+    },
+    {
+      "name": "Neo4j",
+      "ring": "pilot",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Neo4j is one of the oldest Open Source Graph Databases. It&#39;s one of the rare NoSQL databases that is fully ACID-compliant. We see two main advantages of graph databases:</p>\n<ul>\n<li>for a lot of domains there is a natural way of modeling this in a graph (the Neo4j website says &quot;everything is a graph&quot;),</li>\n<li>and querying relations between nodes is very efficient in a graph database.</li>\n</ul>\n<p>Neo4j database is implemented in Java and can therefore be embedded in your application if you live on the JVM.</p>\n<p>You can also choose to run it in a classic server mode, which then provides you with the possibility to either use its REST API or connect to it via the BOLT Driver, which has native bindings for the most popular languages.</p>\n<p>The cypher query language which comes with Neo4j is a declarative graph query language that allows for expressive and efficient querying and updating of the graph.</p>\n<p>At AOE, we use Neo4j mostly for explorative, interactive work with weakly structured or highly connected data, also we are evaluating this for knowledge-based recommendations in our <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.searchperience.de/home.html\">Searchperience</a> product.</p>",
+      "body": "<p>Neo4j is one of the oldest Open Source Graph Databases. It&#39;s one of the rare NoSQL databases that is fully ACID-compliant. We see two main advantages of graph databases:</p>\n<ul>\n<li>for a lot of domains there is a natural way of modeling this in a graph (the Neo4j website says &quot;everything is a graph&quot;),</li>\n<li>and querying relations between nodes is very efficient in a graph database.</li>\n</ul>\n<p>Neo4j database is implemented in Java and can therefore be embedded in your application if you live on the JVM.</p>\n<p>You can also choose to run it in a classic server mode, which then provides you with the possibility to either use its REST API or connect to it via the BOLT Driver, which has native bindings for the most popular languages.</p>\n<p>The cypher query language which comes with Neo4j is a declarative graph query language that allows for expressive and efficient querying and updating of the graph.</p>\n<p>At AOE, we use Neo4j mostly for explorative, interactive work with weakly structured or highly connected data, also we are evaluating this for knowledge-based recommendations in our <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.searchperience.de/home.html\">Searchperience</a> product.</p>"
+    },
+    {
+      "name": "NoSQL",
+      "ring": "trial",
+      "quadrant": "Concept",
+      "isNew": "FALSE",
+      "description": "<p>NoSQL technologies are established solutions that allows for scaling and handling big datasets.\nWe use Technologies like Redis, Elasticsearch and Neo4J but there are many others that are powering the NoSQL space.</p>",
+      "body": "<p>NoSQL technologies are established solutions that allows for scaling and handling big datasets.\nWe use Technologies like Redis, Elasticsearch and Neo4J but there are many others that are powering the NoSQL space.</p>"
+    },
+    {
+      "name": "NPM",
+      "ring": "standard",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/\">NPM</a> is one of, if not the most, popular package manager for JavaScript. Because of the big community, you can find nearly every dependency in npm.</p>\n<p>Instead of other package managers such as <a href=\"/techradar/Platform Runtime/bower.html\">bower</a>, you have to write your packages as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/CommonJS\">modules</a>. This unifies the way you have to use, test and, of course, understand dependencies.</p>\n<p>NPM creates a tree for your dependencies and their nesting dependencies. Because of this, you don&#39;t need to handle version conflicts, since every dependency uses there own version of e.g. <a href=\"/techradar/Platform Runtime/webpack.html\">webpack</a>.</p>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/cli/shrinkwrap\">shrinkwrap</a> you have a robust tool to lock down and manage the versions of your dependencies - following the <a href=\"/techradar/Platform Experiences/pin-external-dependencies.html\">Pin (external) dependencies</a> approach.</p>\n<p>For each package you have to classify your dependencies:</p>\n<ul>\n<li>  dependencies are needed for use without the need of pre compiling, e.g. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lodash.com/\">lodash</a></li>\n<li>  devDependencies are needed for development only, e.g. testing frameworks or pre compiler e.g. <a href=\"/techradar/UX Fabric/babel.html\">babel</a></li>\n<li>  peerDependencies you have to provide for using the package</li>\n</ul>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/misc/scripts\">scripts</a> you get support for the most common build lifecycle steps, e.g. build, start, test ...</p>\n<p>Other useful features:</p>\n<ul>\n<li>  mirror support for your own repository (e.g. <a href=\"/techradar/Platform Operations/artifactory.html\">artifactory</a>)</li>\n<li>  can be used for server and client JavaScript development (see <a href=\"/techradar/UX Fabric/node-js.html\">node.js</a> )</li>\n</ul>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/\">NPM</a> is one of, if not the most, popular package manager for JavaScript. Because of the big community, you can find nearly every dependency in npm.</p>\n<p>Instead of other package managers such as <a href=\"/techradar/Platform Runtime/bower.html\">bower</a>, you have to write your packages as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/CommonJS\">modules</a>. This unifies the way you have to use, test and, of course, understand dependencies.</p>\n<p>NPM creates a tree for your dependencies and their nesting dependencies. Because of this, you don&#39;t need to handle version conflicts, since every dependency uses there own version of e.g. <a href=\"/techradar/Platform Runtime/webpack.html\">webpack</a>.</p>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/cli/shrinkwrap\">shrinkwrap</a> you have a robust tool to lock down and manage the versions of your dependencies - following the <a href=\"/techradar/Platform Experiences/pin-external-dependencies.html\">Pin (external) dependencies</a> approach.</p>\n<p>For each package you have to classify your dependencies:</p>\n<ul>\n<li>  dependencies are needed for use without the need of pre compiling, e.g. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lodash.com/\">lodash</a></li>\n<li>  devDependencies are needed for development only, e.g. testing frameworks or pre compiler e.g. <a href=\"/techradar/UX Fabric/babel.html\">babel</a></li>\n<li>  peerDependencies you have to provide for using the package</li>\n</ul>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/misc/scripts\">scripts</a> you get support for the most common build lifecycle steps, e.g. build, start, test ...</p>\n<p>Other useful features:</p>\n<ul>\n<li>  mirror support for your own repository (e.g. <a href=\"/techradar/Platform Operations/artifactory.html\">artifactory</a>)</li>\n<li>  can be used for server and client JavaScript development (see <a href=\"/techradar/UX Fabric/node-js.html\">node.js</a> )</li>\n</ul>"
+    },
+    {
+      "name": "Open API",
+      "ring": "standard",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p>The OpenAPI Specification is becoming a broadly standarded industry standard for describing modern REST APIs. Other initiatives like RAML have <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blogs.mulesoft.com/dev/api-dev/open-api-raml-better-together/\">joined</a> the OpenAPI Initiative.</p>\n<p>OpenAPI v2 version is basically the former Swagger - and Swagger provides useful Platform Runtime for OpenAPI like the online editor and viewer <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://editor.swagger.io/\">http://editor.swagger.io/</a>\nWe have also found that this version currently have a good tool support accross languages, so you will find API client and server generation Platform Runtime for a lot of languages, which makes it quite easy to connect to an API that is described in OpenAPI standard.</p>\n<p><strong>OpenAPI v3</strong></p>\n<p>OpenAPI v3 adds more features to the specification - for example the ability to describe APIs supporting request/callback pattern.</p>\n<p>There is a very good api designer <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.apicur.io/\">https://www.apicur.io/</a> and a good mock generator <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://microcks.github.io/index.html\">http://microcks.github.io/index.html</a></p>\n<p>The general tool support is excellent. See <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openapi.Platform Runtime/\">https://openapi.Platform Runtime/</a></p>",
+      "body": "<p>The OpenAPI Specification is becoming a broadly standarded industry standard for describing modern REST APIs. Other initiatives like RAML have <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blogs.mulesoft.com/dev/api-dev/open-api-raml-better-together/\">joined</a> the OpenAPI Initiative.</p>\n<p>OpenAPI v2 version is basically the former Swagger - and Swagger provides useful Platform Runtime for OpenAPI like the online editor and viewer <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://editor.swagger.io/\">http://editor.swagger.io/</a>\nWe have also found that this version currently have a good tool support accross languages, so you will find API client and server generation Platform Runtime for a lot of languages, which makes it quite easy to connect to an API that is described in OpenAPI standard.</p>\n<p><strong>OpenAPI v3</strong></p>\n<p>OpenAPI v3 adds more features to the specification - for example the ability to describe APIs supporting request/callback pattern.</p>\n<p>There is a very good api designer <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.apicur.io/\">https://www.apicur.io/</a> and a good mock generator <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://microcks.github.io/index.html\">http://microcks.github.io/index.html</a></p>\n<p>The general tool support is excellent. See <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openapi.Platform Runtime/\">https://openapi.Platform Runtime/</a></p>"
+    },
+    {
+      "name": "Oro Platform",
+      "ring": "pilot",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>OroPlatform is a framework built on Symfony 2 with the purpose of providing the features you need in every business application that is not your core business logic. Hence, it serves you with a basic application, providing login and complex security, menus and menu management, history, audit trails, settings management, etc. It comes complete with a design and many widgets to be utilized in own entities. Other Features of OroPlatform are, for example, a WebSocket server-driven user interface, queue-based task runners, REST Interface, as well as messaging- and workflow systems.</p>\n<p>One of the central features is that entities, which are to be managed within the system, can be set up completely by configuring them using the UI. This in itself implies that it puts another abstraction layer upon doctrine and symfony defaults.</p>\n<p>As with every framework or application, the general-purpose goals and abstraction comes with drawbacks: In fact, OroPlatform modifies and extends the common way of doing things in Symfony in several places, which makes the developer&#39;s life hard at times. Also, the UI and package managing are set in such a way that they are hard to extend or replace. The many additional abstraction layers can result in decreased performance.</p>\n<p>On the other hand, OroPlatform gives you a good headstart for prototyping and frees you from rebuilding common requirements - which makes it a relevant choice for business applications with the need to manage several entities in a backend. Also, projects such <a href=\"/techradar/Platform Runtime/akeneo.html\">Akeneo</a> or OroCRM use OroPlatform with success.</p>\n<p>Since the project is still young, the future development and improvements need to be watched. We classified the Framework as <em><strong>Assess</strong></em>.</p>",
+      "body": "<p>OroPlatform is a framework built on Symfony 2 with the purpose of providing the features you need in every business application that is not your core business logic. Hence, it serves you with a basic application, providing login and complex security, menus and menu management, history, audit trails, settings management, etc. It comes complete with a design and many widgets to be utilized in own entities. Other Features of OroPlatform are, for example, a WebSocket server-driven user interface, queue-based task runners, REST Interface, as well as messaging- and workflow systems.</p>\n<p>One of the central features is that entities, which are to be managed within the system, can be set up completely by configuring them using the UI. This in itself implies that it puts another abstraction layer upon doctrine and symfony defaults.</p>\n<p>As with every framework or application, the general-purpose goals and abstraction comes with drawbacks: In fact, OroPlatform modifies and extends the common way of doing things in Symfony in several places, which makes the developer&#39;s life hard at times. Also, the UI and package managing are set in such a way that they are hard to extend or replace. The many additional abstraction layers can result in decreased performance.</p>\n<p>On the other hand, OroPlatform gives you a good headstart for prototyping and frees you from rebuilding common requirements - which makes it a relevant choice for business applications with the need to manage several entities in a backend. Also, projects such <a href=\"/techradar/Platform Runtime/akeneo.html\">Akeneo</a> or OroCRM use OroPlatform with success.</p>\n<p>Since the project is still young, the future development and improvements need to be watched. We classified the Framework as <em><strong>Assess</strong></em>.</p>"
+    },
+    {
+      "name": "Packer",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.packer.io/intro/getting-started/build-image.html\">Hashicorp Packer</a> is a lightweight tool which automates the creation of any type of machine images (Machine Image As A Code) for multiple platforms. \nPacker is not a replacement of configuration management Platform Runtime like Ansible. Packer works with Platform Runtime like ansible to install software while creating images. \nPacker uses a configuration file to create a machine image. It uses the concepts of builders to spin up an instance, run provisioners to configure applications or services. \nOnce setup is done, it shuts the instance down and save new baked machine instance with any needed post-processing. \nPacker only builds images. But once you have them you can deploy your infrastructure quickly and even scale by spawning any number of instances without doing extra configuration. \nAnother benefit is, that machine images can be tested to verify if they are working correctly.\nPacker supports multiple cloud providers like AWS, GCP, Digital Ocean etc.</p>\n<p>Machine images are important for modern deployment pipelines and fast ramp of of new infrastructure. \nWe are using Packer to build so called &quot;Golden images&quot; that are used in our <a href=\"/techradar/Platform Experiences/infrastructure-as-code.html\">Infrastructure as Code</a> based provisionings.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.packer.io/intro/getting-started/build-image.html\">Hashicorp Packer</a> is a lightweight tool which automates the creation of any type of machine images (Machine Image As A Code) for multiple platforms. \nPacker is not a replacement of configuration management Platform Runtime like Ansible. Packer works with Platform Runtime like ansible to install software while creating images. \nPacker uses a configuration file to create a machine image. It uses the concepts of builders to spin up an instance, run provisioners to configure applications or services. \nOnce setup is done, it shuts the instance down and save new baked machine instance with any needed post-processing. \nPacker only builds images. But once you have them you can deploy your infrastructure quickly and even scale by spawning any number of instances without doing extra configuration. \nAnother benefit is, that machine images can be tested to verify if they are working correctly.\nPacker supports multiple cloud providers like AWS, GCP, Digital Ocean etc.</p>\n<p>Machine images are important for modern deployment pipelines and fast ramp of of new infrastructure. \nWe are using Packer to build so called &quot;Golden images&quot; that are used in our <a href=\"/techradar/Platform Experiences/infrastructure-as-code.html\">Infrastructure as Code</a> based provisionings.</p>"
+    },
+    {
+      "name": "PACT",
+      "ring": "trial",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>At AOE we continue to use PACT but would like to use it even more. It therefore remains in the trail ring but was faded out from the overview page.</p>",
+      "body": "<p>At AOE we continue to use PACT but would like to use it even more. It therefore remains in the trail ring but was faded out from the overview page.</p>"
+    },
+    {
+      "name": "Pair working",
+      "ring": "trial",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>We summarized the practices of pair programming and administrating as pair working.</p>\n<p>Derived as a practice from eXtreme Programming (XP), pair programming is a method/pattern that aims for fine-scaled feedback within a team.</p>\n<p>At AOE, some developers and operators work in pairs, not constantly, but from time to time. Most teams have positive experiences using this method, but not all teams tried the by-the-book-approach (driver and navigator principle). Especially for non-trival tasks, pair working results in rapid knowlegde exchange and better results with less bugs. We encourage the teams to try this approach more often.</p>",
+      "body": "<p>We summarized the practices of pair programming and administrating as pair working.</p>\n<p>Derived as a practice from eXtreme Programming (XP), pair programming is a method/pattern that aims for fine-scaled feedback within a team.</p>\n<p>At AOE, some developers and operators work in pairs, not constantly, but from time to time. Most teams have positive experiences using this method, but not all teams tried the by-the-book-approach (driver and navigator principle). Especially for non-trival tasks, pair working results in rapid knowlegde exchange and better results with less bugs. We encourage the teams to try this approach more often.</p>"
+    },
+    {
+      "name": "phan",
+      "ring": "pilot",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>Phan is a static code analyzer for PHP7, which is very fast, since it uses the PHP 7 AST (abstract syntax tree). Phan basically offers some of the safety that otherwise only compiled type-safe languages have - such as checking function references and return types.</p>\n<p>We expect at least the following benefits:</p>\n<ul>\n<li>  Decreased bug density; possible bugs and issues are found early</li>\n<li>  Safer code and higher code quality</li>\n</ul>\n<p>We think Phan can be used in the deployment pipeline or as commit hooks for PHP 7-based applications. For a full Feature list check <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/etsy/phan#features\">here</a>.</p>",
+      "body": "<p>Phan is a static code analyzer for PHP7, which is very fast, since it uses the PHP 7 AST (abstract syntax tree). Phan basically offers some of the safety that otherwise only compiled type-safe languages have - such as checking function references and return types.</p>\n<p>We expect at least the following benefits:</p>\n<ul>\n<li>  Decreased bug density; possible bugs and issues are found early</li>\n<li>  Safer code and higher code quality</li>\n</ul>\n<p>We think Phan can be used in the deployment pipeline or as commit hooks for PHP 7-based applications. For a full Feature list check <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/etsy/phan#features\">here</a>.</p>"
+    },
+    {
+      "name": "Pipeline as Code",
+      "ring": "standard",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p>We moved this pattern to <strong>standard</strong>, because it is used by nearly every team and project now and is an important part of our automation.</p>\n<p>For Jenkins, we often use a mix of Job DSL and Jenkins Pipelines and recently also used Gitlab Pipelines.</p>",
+      "body": "<p>We moved this pattern to <strong>standard</strong>, because it is used by nearly every team and project now and is an important part of our automation.</p>\n<p>For Jenkins, we often use a mix of Job DSL and Jenkins Pipelines and recently also used Gitlab Pipelines.</p>"
+    },
+    {
+      "name": "Plant UML",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://plantuml.com/\">PlantUML</a> is an open source project that allows to create UML diagrams in a text-based and declarative way.</p>\n<p>Since it is integrated in Platform Runtime like Confluence, IntelliJ and Gitlab we use it a lot to quickly document results of software design sessions.</p>\n<p>Another similar Platform Runtime that use just plain javascript to render the diagrams is <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://mermaid-js.github.io/mermaid/#/\">mermaid</a></p>",
+      "body": ""
+    },
+    {
+      "name": "Play Framework",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "FALSE",
+      "description": "<p>The Play Framework is a lightweight (web)application framework for Java and <a href=\"/techradar/UX Fabric/scala-lang.html\">Scala</a> programmers.</p>\n<p>A developer can choose from different modules to include necessary functionality such s accessing http resources, databases, and so on. As a consequence, the developer can choose, and is not distracted by or clobbered with irrelevant things. This approach is considered as minimalistic, but it is easy to include necessary functionality.</p>\n<p>Regarding the architecture, Play is stateless and built on Akka. As a consequence, Play applications have much lower resource consumption regarding CPU und memory and can scale easily. Play manages concurrency without binding a request to a thread until the response is ready.</p>\n<p>With the use of &quot;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://docs.scala-lang.org/overviews/core/futures.html\">Futures</a>&quot; in your code you can turn synchronous tasks (such as IO or API call to another service) into asynchronous and you can build non-blocking applications. It is recommended to understand the principles Play uses to achieve performance and scalability.</p>\n<p>Play can act as backend service delivering JSON, for esample. For building web applications. the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.playframework.com/documentation/2.5.x/ScalaTemplates\">Twirl</a> template engine enables server-side rendering of html pages. These html pages can include css and java script parts of your own choice.</p>",
+      "body": "<p>The Play Framework is a lightweight (web)application framework for Java and <a href=\"/techradar/UX Fabric/scala-lang.html\">Scala</a> programmers.</p>\n<p>A developer can choose from different modules to include necessary functionality such s accessing http resources, databases, and so on. As a consequence, the developer can choose, and is not distracted by or clobbered with irrelevant things. This approach is considered as minimalistic, but it is easy to include necessary functionality.</p>\n<p>Regarding the architecture, Play is stateless and built on Akka. As a consequence, Play applications have much lower resource consumption regarding CPU und memory and can scale easily. Play manages concurrency without binding a request to a thread until the response is ready.</p>\n<p>With the use of &quot;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://docs.scala-lang.org/overviews/core/futures.html\">Futures</a>&quot; in your code you can turn synchronous tasks (such as IO or API call to another service) into asynchronous and you can build non-blocking applications. It is recommended to understand the principles Play uses to achieve performance and scalability.</p>\n<p>Play can act as backend service delivering JSON, for esample. For building web applications. the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.playframework.com/documentation/2.5.x/ScalaTemplates\">Twirl</a> template engine enables server-side rendering of html pages. These html pages can include css and java script parts of your own choice.</p>"
+    },
+    {
+      "name": "Ports and Adapters",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>Updated to &quot;standard&quot;</p>",
+      "body": "<p>Updated to &quot;standard&quot;</p>"
+    },
+    {
+      "name": "PostCSS",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>PostCSS is a tool for transforming stylesheets with JavaScript plugins. It comes with a parser that reads your CSS file into an AST, pipes it through the loaded plugins and finally\nstringifies it back into a (transformed) CSS output file.</p>\n<p>We at AOE love PostCSS because it gives us the power to use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/css-modules/css-modules\">CSS Modules</a>, which finally ends the curse of global CSS.</p>\n<p>It also has a huge list of more than 350 other <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://postcss.parts/\">available plugins</a>.\nSure, not all of them are useful, but the sheer number of plugins shows how easy it is to write your own plugin for it.\nIn fact, it¬¥s just a matter of writing a single JS function.</p>\n<p>Finally, PostCSS is very fast and easy to setup because it runs 100% in JavaScript.\nCompared to <a href=\"/techradar/UX Fabric/sass.html\">SASS</a> as a preprocessor, it feels much more powerful but at the same time less bloated with superfluous functionality because everything comes in its own little plugin</p>",
+      "body": "<p>PostCSS is a tool for transforming stylesheets with JavaScript plugins. It comes with a parser that reads your CSS file into an AST, pipes it through the loaded plugins and finally\nstringifies it back into a (transformed) CSS output file.</p>\n<p>We at AOE love PostCSS because it gives us the power to use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/css-modules/css-modules\">CSS Modules</a>, which finally ends the curse of global CSS.</p>\n<p>It also has a huge list of more than 350 other <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://postcss.parts/\">available plugins</a>.\nSure, not all of them are useful, but the sheer number of plugins shows how easy it is to write your own plugin for it.\nIn fact, it¬¥s just a matter of writing a single JS function.</p>\n<p>Finally, PostCSS is very fast and easy to setup because it runs 100% in JavaScript.\nCompared to <a href=\"/techradar/UX Fabric/sass.html\">SASS</a> as a preprocessor, it feels much more powerful but at the same time less bloated with superfluous functionality because everything comes in its own little plugin</p>"
+    },
+    {
+      "name": "PostgreSQL",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.postgresql.org/\">PostgreSQL</a> is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.postgresql.org/\">PostgreSQL</a> is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.</p>"
+    },
+    {
+      "name": "Postman",
+      "ring": "trial",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.getpostman.com/\">Postman</a> is an API testing and documentation tool. Requests can be bundled into folders \nand easily be configured to be executed against multiple environments. Responses can be evaluated using the &quot;test&quot; feature.</p>\n<p>Even automated testing is possible using <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/package/newman\">Newman</a> as an addition to Postman.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.getpostman.com/\">Postman</a> is an API testing and documentation tool. Requests can be bundled into folders \nand easily be configured to be executed against multiple environments. Responses can be evaluated using the &quot;test&quot; feature.</p>\n<p>Even automated testing is possible using <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/package/newman\">Newman</a> as an addition to Postman.</p>"
+    },
+    {
+      "name": "Prometheus",
+      "ring": "standard",
+      "quadrant": "Tool",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://prometheus.io\">Prometheus</a> is an open-source monitoring and alerting system. It was the second project within the CNCF which reached the &quot;graduated&quot; status and has since seen a large rate of standardion accross many CNCF projects. It primarily utilizes a pull-based metrics flow through HTTP which allows the easy integration of a variety of application-specific metrics sources. Compared to other monitoring systems it stands out in it&#39;s simple, still powerful and fully code-based configuration and the equally powerful service discovery mechanism.</p>\n<p>Prometheus integrates very well with Grafana which is our tool of choice for dashboard visualization. Through the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/prometheus-operator/prometheus-operator\">Prometheus Operator</a> project, the monitoring system can be configured through Kubernetes custom resource definitions. These can be shipped by development teams alongside with their application deployments and allow <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.aoe.com/techradar/Platform Experiences/shared-responsibility.html\">sharing responsibility</a> for monitoring tasks between operations and engineerings teams with a clear interface.</p>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cortexmetrics.io/\">Cortex</a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://thanos.io/\">Thanos</a> the Prometheus-ecosystem knows two well setteled solutions for high-availibilty of the underlying time series database and with <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aws.amazon.com/en/prometheus/\">Amazon Managed Services for Prometheus</a> there&#39;s also a SaaS-Solution available.</p>\n<p>We use Prometheus in nearly every project, it&#39;s an essential part of our underlying operations and also well understood by many development teams.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://prometheus.io\">Prometheus</a> is an open-source monitoring and alerting system. It was the second project within the CNCF which reached the &quot;graduated&quot; status and has since seen a large rate of standardion accross many CNCF projects. It primarily utilizes a pull-based metrics flow through HTTP which allows the easy integration of a variety of application-specific metrics sources. Compared to other monitoring systems it stands out in it&#39;s simple, still powerful and fully code-based configuration and the equally powerful service discovery mechanism.</p>\n<p>Prometheus integrates very well with Grafana which is our tool of choice for dashboard visualization. Through the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/prometheus-operator/prometheus-operator\">Prometheus Operator</a> project, the monitoring system can be configured through Kubernetes custom resource definitions. These can be shipped by development teams alongside with their application deployments and allow <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.aoe.com/techradar/Platform Experiences/shared-responsibility.html\">sharing responsibility</a> for monitoring tasks between operations and engineerings teams with a clear interface.</p>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cortexmetrics.io/\">Cortex</a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://thanos.io/\">Thanos</a> the Prometheus-ecosystem knows two well setteled solutions for high-availibilty of the underlying time series database and with <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aws.amazon.com/en/prometheus/\">Amazon Managed Services for Prometheus</a> there&#39;s also a SaaS-Solution available.</p>\n<p>We use Prometheus in nearly every project, it&#39;s an essential part of our underlying operations and also well understood by many development teams.</p>"
+    },
+    {
+      "name": "Puppet Environments",
+      "ring": "trial",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p>Puppet Environments has proven to work well for our projects using Puppet.</p>",
+      "body": "<p>Puppet Environments has proven to work well for our projects using Puppet.</p>"
+    },
+    {
+      "name": "Python for Infrastructure Glue Code",
+      "ring": "pilot",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.python.org\">Python</a> is an easy to learn programming language that is pre-installed on\nmost Linux distributions and CI runners.\nThis makes it an ideal candidate for infrastructure glue code and adapters.</p>\n<p>Shell scripts serve the same purpose. But they usually start simple and get more complex over time.\nThis is the point where Python&#39;s features like testing capabilities, modularity, variable scoping and refactoring\nsupport comes in strong. We found that Python scripts are easier maintained in the long run and pose\na lower barrier for contributions by our development teams. And they run across platforms and shells\nwithout much trouble which is a big plus for developers running different operating systems.</p>\n<p>The Python language has a wide eco-system and a vast module library that can simplify scripting\nsignificantly. We currently value <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://pypi.org/project/requests/\">requests</a> for HTTP API calls\nand <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://click.palletsprojects.com/en/7.x/\">Click</a> for simple interactive CLI scripts, along with\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.pytest.org/\">pytest</a> for automated testing.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.python.org\">Python</a> is an easy to learn programming language that is pre-installed on\nmost Linux distributions and CI runners.\nThis makes it an ideal candidate for infrastructure glue code and adapters.</p>\n<p>Shell scripts serve the same purpose. But they usually start simple and get more complex over time.\nThis is the point where Python&#39;s features like testing capabilities, modularity, variable scoping and refactoring\nsupport comes in strong. We found that Python scripts are easier maintained in the long run and pose\na lower barrier for contributions by our development teams. And they run across platforms and shells\nwithout much trouble which is a big plus for developers running different operating systems.</p>\n<p>The Python language has a wide eco-system and a vast module library that can simplify scripting\nsignificantly. We currently value <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://pypi.org/project/requests/\">requests</a> for HTTP API calls\nand <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://click.palletsprojects.com/en/7.x/\">Click</a> for simple interactive CLI scripts, along with\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.pytest.org/\">pytest</a> for automated testing.</p>"
+    },
+    {
+      "name": "RabbitMQ",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>RabbitMQ has proven to work very well for messaging in our projects, thats why we updated it to &quot;standard&quot;. </p>",
+      "body": "<p>RabbitMQ has proven to work very well for messaging in our projects, thats why we updated it to &quot;standard&quot;. </p>"
+    },
+    {
+      "name": "React.js",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "FALSE",
+      "description": "<p>The past months have shown that React is still a great fit for us for frontend-heavy\napplications. With its rewritten core in version 16, Facebook shows how\nimportant this framework is for them. Therefore, Facebook is investing a lot of effort into React and a\nhealthy community. In addition, we <strong>REALLY</strong> enjoy writing React\ncomponents ‚Äì so much so, that we have to move this library into <strong>standard</strong>!</p>",
+      "body": "<p>The past months have shown that React is still a great fit for us for frontend-heavy\napplications. With its rewritten core in version 16, Facebook shows how\nimportant this framework is for them. Therefore, Facebook is investing a lot of effort into React and a\nhealthy community. In addition, we <strong>REALLY</strong> enjoy writing React\ncomponents ‚Äì so much so, that we have to move this library into <strong>standard</strong>!</p>"
+    },
+    {
+      "name": "Reactive Programming",
+      "ring": "standard",
+      "quadrant": "Concept",
+      "isNew": "FALSE",
+      "description": "<p>The reactive style of programming promotes event-based thinking and modeling -- \nand by that assists in creating more decoupled solutions.</p>\n<p>Synergies arise, when people understand the concepts of this pattern: by using marble diagrams, \nwhich are a de-facto standard in visualizing algorithms in a reactive style, a common ground for communication \nis available regardless of the programming language used.</p>\n<p>When appropriate, we choose more explicitly the Reactive Programming pattern and therefore moved this to &quot;standard&quot;.</p>",
+      "body": "<p>The reactive style of programming promotes event-based thinking and modeling -- \nand by that assists in creating more decoupled solutions.</p>\n<p>Synergies arise, when people understand the concepts of this pattern: by using marble diagrams, \nwhich are a de-facto standard in visualizing algorithms in a reactive style, a common ground for communication \nis available regardless of the programming language used.</p>\n<p>When appropriate, we choose more explicitly the Reactive Programming pattern and therefore moved this to &quot;standard&quot;.</p>"
+    },
+    {
+      "name": "Redux",
+      "ring": "trial",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://redux.js.org/\">Redux</a> helps us to maintain state in our frontend applications in a more predictable and clearer way. It is extendable though middleware, it has a great documentation and some awesome <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/gaearon/redux-devPlatform Runtime\">devPlatform Runtime</a> that are especially helpful when you are new to Redux.</p>\n<p>The functional concepts for updating the state, combined with immutable data, lead to extremely easy and enjoyable <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://redux.js.org/docs/recipes/WritingTests.html\">unit tests</a> - this is maybe the biggest plus for us developers.</p>\n<p>The official <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/reactjs/react-redux\">react-redux bindings</a> also made it straightforward to weave Redux into our React applications. For asynchronous actions we use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://redux-saga.github.io/redux-saga/\">redux-sagas</a> which has proven itself as a better alternative for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/gaearon/redux-thunk\">redux-thunk</a>.</p>\n<p>Currently, we use Redux only in our React projects, but we are evaluating it together with other frameworks such as Angular or Vue.js, as well.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://redux.js.org/\">Redux</a> helps us to maintain state in our frontend applications in a more predictable and clearer way. It is extendable though middleware, it has a great documentation and some awesome <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/gaearon/redux-devPlatform Runtime\">devPlatform Runtime</a> that are especially helpful when you are new to Redux.</p>\n<p>The functional concepts for updating the state, combined with immutable data, lead to extremely easy and enjoyable <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://redux.js.org/docs/recipes/WritingTests.html\">unit tests</a> - this is maybe the biggest plus for us developers.</p>\n<p>The official <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/reactjs/react-redux\">react-redux bindings</a> also made it straightforward to weave Redux into our React applications. For asynchronous actions we use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://redux-saga.github.io/redux-saga/\">redux-sagas</a> which has proven itself as a better alternative for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/gaearon/redux-thunk\">redux-thunk</a>.</p>\n<p>Currently, we use Redux only in our React projects, but we are evaluating it together with other frameworks such as Angular or Vue.js, as well.</p>"
+    },
+    {
+      "name": "Resilience thinking",
+      "ring": "trial",
+      "quadrant": "Concept",
+      "isNew": "FALSE",
+      "description": "<p>Resilience is the cabability of an application or service to resist different error scenarios. Especially for distributed systems - where a lot of communication between different services happen - it&#39;s very important to explicitly think of implementing resilience.</p>\n<p>There are a lot of different resilience patterns and it is also a matter of the overall software design. Typical patterns and methods used are:</p>\n<ul>\n<li>  Do not hide API calls or any other external communication in your application (for example with unnecessary abstraction) - instead make it explicit that an external communication happens - e.g. by using the Facade Pattern. On the one hand, this makes it obvious that a potential slow and errorprone communication is going to happen, and it makes it easier to implement error handling.</li>\n<li>  Detect errors explicitly: Check the response message format and configure proper timeouts for external communication</li>\n<li>  Handle errors in a smart way: Show a nice error message to your customer or, even better, graceful degrade features - e.g. by showing some fallback text</li>\n<li>  Use Message-based communication where useful (<a href=\"/techradar/Platform Operations/decoupling-infrastructure-via-messaging.html\">Decoupling Infrastructure via Messaging</a>)</li>\n<li>  Use Circuit Breaker to Isolate errors and allow system to recover</li>\n<li>  Use short activation paths in your strategic architecture - so that there is only a minimal set of communications between your services required for certain features or business requests</li>\n</ul>\n<p>&quot;Embrace Errors&quot; should be the mindset - because its not a question if errors appear - it&#39;s just a question of when.</p>",
+      "body": "<p>Resilience is the cabability of an application or service to resist different error scenarios. Especially for distributed systems - where a lot of communication between different services happen - it&#39;s very important to explicitly think of implementing resilience.</p>\n<p>There are a lot of different resilience patterns and it is also a matter of the overall software design. Typical patterns and methods used are:</p>\n<ul>\n<li>  Do not hide API calls or any other external communication in your application (for example with unnecessary abstraction) - instead make it explicit that an external communication happens - e.g. by using the Facade Pattern. On the one hand, this makes it obvious that a potential slow and errorprone communication is going to happen, and it makes it easier to implement error handling.</li>\n<li>  Detect errors explicitly: Check the response message format and configure proper timeouts for external communication</li>\n<li>  Handle errors in a smart way: Show a nice error message to your customer or, even better, graceful degrade features - e.g. by showing some fallback text</li>\n<li>  Use Message-based communication where useful (<a href=\"/techradar/Platform Operations/decoupling-infrastructure-via-messaging.html\">Decoupling Infrastructure via Messaging</a>)</li>\n<li>  Use Circuit Breaker to Isolate errors and allow system to recover</li>\n<li>  Use short activation paths in your strategic architecture - so that there is only a minimal set of communications between your services required for certain features or business requests</li>\n</ul>\n<p>&quot;Embrace Errors&quot; should be the mindset - because its not a question if errors appear - it&#39;s just a question of when.</p>"
+    },
+    {
+      "name": "Rest Assured (Testing)",
+      "ring": "pilot",
+      "quadrant": "Language & Framework",
+      "isNew": "FALSE",
+      "description": "<p><strong><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/rest-assured/rest-assured\">REST-assured</a></strong> is a Java DSL for simplifying testing of REST-based services built on top of HTTP Builder. It supports the most important http request methods and can be used to validate and verify the response of these requests.</p>\n<p>At AOE, we use REST-assured with Spock to automate our API testing. We appreciate the easy-to-use DSL, which uses the Given-When-Then template (also known as Gherkin language). This template helps other project members to understand the code/test easily.</p>\n<p>Because of the seamless integration with Spock and our positive experience in one of our major projects, we classify REST-assured as <em>pilot.</em></p>",
+      "body": "<p><strong><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/rest-assured/rest-assured\">REST-assured</a></strong> is a Java DSL for simplifying testing of REST-based services built on top of HTTP Builder. It supports the most important http request methods and can be used to validate and verify the response of these requests.</p>\n<p>At AOE, we use REST-assured with Spock to automate our API testing. We appreciate the easy-to-use DSL, which uses the Given-When-Then template (also known as Gherkin language). This template helps other project members to understand the code/test easily.</p>\n<p>Because of the seamless integration with Spock and our positive experience in one of our major projects, we classify REST-assured as <em>pilot.</em></p>"
+    },
+    {
+      "name": "Rust",
+      "ring": "pilot",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.rust-lang.org/\">Rust</a> is a young and modern programming language initialy developed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://research.mozilla.org/\">Mozilla Research</a>.</p>\n<p>It provides a strict typesystem, compile-time memory-safety, excellent <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doc.rust-lang.org/cargo/\">package manager</a>, objectoriented &amp; functional programming, task-based concurency, good readability and maintainability and many more.\nIt has a C/C++ <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf\">comparable efficiency</a> and helps the programmer to avoid unnecessary security-relevant memory-related bugs during compile-time.\nSince every memory-allocation is directly released after it can&#39;t be used anymore (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://medium.com/@rabin_gaire/memory-management-rust-cf65c8465570\">owner deletion</a>), no garbage collection is needed.</p>\n<p>C/C++ code/libraries can be integrated by it&#39;s <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/rust-lang/rust-bindgen\">binding generator tool</a>.</p>\n<p>At stackoverflow it is votes 5 years in a row (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2016#technology-most-loved-dreaded-and-wanted\">2016</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2017#technology-_-most-loved-dreaded-and-wanted-languages\">2017</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2018#technology-_-most-loved-dreaded-and-wanted-languages\">2018</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2019#technology-_-most-loved-dreaded-and-wanted-languages\">2019</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved\">2020</a>) for the <code>most loved programming-language</code> by  programmers.\nThe <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved\">popularity</a> is growing continuous.</p>\n<p>With it&#39;s memory-safety/efficiency and energy-efficiency it help&#39;s to save money for bug-fixing, energy and cloud-computing.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.rust-lang.org/\">Rust</a> is a young and modern programming language initialy developed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://research.mozilla.org/\">Mozilla Research</a>.</p>\n<p>It provides a strict typesystem, compile-time memory-safety, excellent <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doc.rust-lang.org/cargo/\">package manager</a>, objectoriented &amp; functional programming, task-based concurency, good readability and maintainability and many more.\nIt has a C/C++ <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf\">comparable efficiency</a> and helps the programmer to avoid unnecessary security-relevant memory-related bugs during compile-time.\nSince every memory-allocation is directly released after it can&#39;t be used anymore (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://medium.com/@rabin_gaire/memory-management-rust-cf65c8465570\">owner deletion</a>), no garbage collection is needed.</p>\n<p>C/C++ code/libraries can be integrated by it&#39;s <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/rust-lang/rust-bindgen\">binding generator tool</a>.</p>\n<p>At stackoverflow it is votes 5 years in a row (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2016#technology-most-loved-dreaded-and-wanted\">2016</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2017#technology-_-most-loved-dreaded-and-wanted-languages\">2017</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2018#technology-_-most-loved-dreaded-and-wanted-languages\">2018</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2019#technology-_-most-loved-dreaded-and-wanted-languages\">2019</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved\">2020</a>) for the <code>most loved programming-language</code> by  programmers.\nThe <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved\">popularity</a> is growing continuous.</p>\n<p>With it&#39;s memory-safety/efficiency and energy-efficiency it help&#39;s to save money for bug-fixing, energy and cloud-computing.</p>"
+    },
+    {
+      "name": "RxJava",
+      "ring": "trial",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/ReactiveX/RxJava\">RxJava</a> is the Open Source Java implementation of ReactiveX. The main concept heavily relies on the Observer- (and Subscriber)-Pattern. An Observer emits a stream of data, which can be consumed by Subscribers. The Subscriber reacts (That&#39;s where the &#39;Rx&#39; comes from) asynchronously to those data events. Reactive Extensions were originally developed by Mircosoft&#39;s Erik Meijer and his team and have been ported to all major programming languages after being released to the public as Open Source software. We use RxJava (but actually RxAndroid to be precise) in the Congstar Android App to let the UI layer react to changes in the underlaying data layer.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/ReactiveX/RxJava\">RxJava</a> is the Open Source Java implementation of ReactiveX. The main concept heavily relies on the Observer- (and Subscriber)-Pattern. An Observer emits a stream of data, which can be consumed by Subscribers. The Subscriber reacts (That&#39;s where the &#39;Rx&#39; comes from) asynchronously to those data events. Reactive Extensions were originally developed by Mircosoft&#39;s Erik Meijer and his team and have been ported to all major programming languages after being released to the public as Open Source software. We use RxJava (but actually RxAndroid to be precise) in the Congstar Android App to let the UI layer react to changes in the underlaying data layer.</p>"
+    },
+    {
+      "name": "RxJs",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>RX/JS aka reactive streams</p>\n<p>RxJS is an implementation for the reactive programming paradigm which implements mostly the observer and iterator\npattern and follows the functional programming ideas. The pattern actually got a renaissance because it&#39;s not completely\nnew but has new implementations in many frameworks and languages like Angular, Akka, Spring and many more. Reason for \nthat attention actually is (in the javascript world), that observables can be cancelled (by rules too) and  observables\ncan pass (stream) data on multiple events. Both aspects are not well realizable using promises e.g. and both were also\ndetected as a huge limitation in the JavaScript community ‚Äî and so it&#39;s worth to get an understanding for reactive\nprogramming in general.</p>\n<p>We at AOE actually use RxJS in combination with Angular and can fully recommend the approach of observables.</p>",
+      "body": "<p>RX/JS aka reactive streams</p>\n<p>RxJS is an implementation for the reactive programming paradigm which implements mostly the observer and iterator\npattern and follows the functional programming ideas. The pattern actually got a renaissance because it&#39;s not completely\nnew but has new implementations in many frameworks and languages like Angular, Akka, Spring and many more. Reason for \nthat attention actually is (in the javascript world), that observables can be cancelled (by rules too) and  observables\ncan pass (stream) data on multiple events. Both aspects are not well realizable using promises e.g. and both were also\ndetected as a huge limitation in the JavaScript community ‚Äî and so it&#39;s worth to get an understanding for reactive\nprogramming in general.</p>\n<p>We at AOE actually use RxJS in combination with Angular and can fully recommend the approach of observables.</p>"
+    },
+    {
+      "name": "Scala Lang",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>Scala is used in many projects at AOE. We have therefore moved it to the <strong>standard</strong> level.</p>",
+      "body": "<p>Scala is used in many projects at AOE. We have therefore moved it to the <strong>standard</strong> level.</p>"
+    },
+    {
+      "name": "Self-service infrastructure",
+      "ring": "trial",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p>Moved to &quot;trial&quot;.</p>",
+      "body": "<p>Moved to &quot;trial&quot;.</p>"
+    },
+    {
+      "name": "Settings Injection",
+      "ring": "standard",
+      "quadrant": "Concept",
+      "isNew": "FALSE",
+      "description": "<p>While deploying applications to an environment, the application typically needs to be configured for that specific environment. Typical settings include domain names, database credentials and the location of other dependent services such as cache backends, queues or session storages.</p>\n<p>These settings should not be shipped with the build package. Instead, it&#39;s the environment - this build is being deployed to - that should expose these values to application. A common way to &quot;inject&quot; these values is by making them available as environment variables or dynamically creating configuration files for the application. You can achieve this pattern without special Platform Runtime - but this concept of settings injection also works with Platform Runtime such as <a href=\"/techradar/Platform Runtime/consul.html\">Consul</a>, <a href=\"/techradar/Platform Operations/kubernetes.html\">kubernetes</a> (with configMaps and secrets) or <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/AOEpeople/YAD\">YAD</a>.</p>\n<p>In this manner, the build package can be independent from the environment it&#39;s being deployed to - making it easier to follow the &quot;Build once, deploy often&quot; CI/CD principle.</p>",
+      "body": "<p>While deploying applications to an environment, the application typically needs to be configured for that specific environment. Typical settings include domain names, database credentials and the location of other dependent services such as cache backends, queues or session storages.</p>\n<p>These settings should not be shipped with the build package. Instead, it&#39;s the environment - this build is being deployed to - that should expose these values to application. A common way to &quot;inject&quot; these values is by making them available as environment variables or dynamically creating configuration files for the application. You can achieve this pattern without special Platform Runtime - but this concept of settings injection also works with Platform Runtime such as <a href=\"/techradar/Platform Runtime/consul.html\">Consul</a>, <a href=\"/techradar/Platform Operations/kubernetes.html\">kubernetes</a> (with configMaps and secrets) or <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/AOEpeople/YAD\">YAD</a>.</p>\n<p>In this manner, the build package can be independent from the environment it&#39;s being deployed to - making it easier to follow the &quot;Build once, deploy often&quot; CI/CD principle.</p>"
+    },
+    {
+      "name": "Shared Responsibility Model",
+      "ring": "trial",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p>Since introducing &quot;Platform Engineering Team&quot; the builds, maintains and operates our Kubernetes clusters and other releated platform services the question occurs who&#39;s in charge the various tasks like keeping things up and running, applying criticial security fixed, updated software in general, keeping an eye on the bill and many more topics. We&#39;re not proposing a solution on how to split responsibilities here, but we want to raise awareness for bringing everybody together and formally discuss all responsibilities and write them down similar to (and possible extending) AWS&#39;s <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aws.amazon.com/compliance/shared-responsibility-model/\">shared responsibilty modell</a>.\nSome of the topics include: 24/7 on-call support, broken deployment pipelines, and vulnerability scans.</p>",
+      "body": "<p>Since introducing &quot;Platform Engineering Team&quot; the builds, maintains and operates our Kubernetes clusters and other releated platform services the question occurs who&#39;s in charge the various tasks like keeping things up and running, applying criticial security fixed, updated software in general, keeping an eye on the bill and many more topics. We&#39;re not proposing a solution on how to split responsibilities here, but we want to raise awareness for bringing everybody together and formally discuss all responsibilities and write them down similar to (and possible extending) AWS&#39;s <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aws.amazon.com/compliance/shared-responsibility-model/\">shared responsibilty modell</a>.\nSome of the topics include: 24/7 on-call support, broken deployment pipelines, and vulnerability scans.</p>"
+    },
+    {
+      "name": "SonarQube",
+      "ring": "trial",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>At AOE, we are using SonarQube to get a historical overview of the code quality in our Projects. With SonarQube, you can get a quick insight into the condition of your code. It analyzes many languages and provides numerous static analysis rules.\nSonarQube is also being used for Static Application Security Testing (SAST) which scans our code for potential security vulnerabilities and is an essential element of our Secure Software Development Lifecycle.</p>",
+      "body": "<p>At AOE, we are using SonarQube to get a historical overview of the code quality in our Projects. With SonarQube, you can get a quick insight into the condition of your code. It analyzes many languages and provides numerous static analysis rules.\nSonarQube is also being used for Static Application Security Testing (SAST) which scans our code for potential security vulnerabilities and is an essential element of our Secure Software Development Lifecycle.</p>"
+    },
+    {
+      "name": "SparkPost",
+      "ring": "pilot",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p>Sparkpost is an SaaS service for E-Mail delivery and E-Mail templating that can be used to send E-Mails by calling an API.</p>\n<p>In a lot of projects, it is a typical requirement that different E-Mails need to be sent and that the project stakewatchers want to adjust E-Mail templates and content on a relatively regular basis.</p>\n<p>Also, (mass) sending E-Mails and avoiding that they are classified as Spam is not an easy topic. That&#39;s why we decided to use E-Mail delivery services in our projects and evaluated different providers.</p>\n<p>We decided to start using SparkPost because of pricing, feature set and the available reviews on the Internet. There are also other possible solutions such as SendGrid or Postmark.</p>",
+      "body": "<p>Sparkpost is an SaaS service for E-Mail delivery and E-Mail templating that can be used to send E-Mails by calling an API.</p>\n<p>In a lot of projects, it is a typical requirement that different E-Mails need to be sent and that the project stakewatchers want to adjust E-Mail templates and content on a relatively regular basis.</p>\n<p>Also, (mass) sending E-Mails and avoiding that they are classified as Spam is not an easy topic. That&#39;s why we decided to use E-Mail delivery services in our projects and evaluated different providers.</p>\n<p>We decided to start using SparkPost because of pricing, feature set and the available reviews on the Internet. There are also other possible solutions such as SendGrid or Postmark.</p>"
+    },
+    {
+      "name": "Spring Boot",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>We now have several years of experiences with Spring Boot, \nand a big projects Microservice Environment runs completely on Spring Boot, \nso it&#39;s time to update it to &quot;standard&quot;.</p>",
+      "body": "<p>We now have several years of experiences with Spring Boot, \nand a big projects Microservice Environment runs completely on Spring Boot, \nso it&#39;s time to update it to &quot;standard&quot;.</p>"
+    },
+    {
+      "name": "Spring REST Docs",
+      "ring": "pilot",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://projects.spring.io/spring-restdocs/\">Spring REST Docs</a> auto generates <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://asciidoctor.org/\">Asciidoctor</a> snippets with the help of <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle#spring-mvc-test-framework\">Spring MVC Test</a> or <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://extranet.aoe.com/confluence/pages/viewpage.action?pageId=86937862\">RestAssured</a>.  So you can be sure that your tests are inline with the documentation.</p>\n<p>At AOE, we use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://projects.spring.io/spring-restdocs/\">Spring REST Docs</a> to document our Rest Services and Hal Resources. We also use it to auto generate <a href=\"/techradar/Platform Runtime/wiremock.html\">Wiremock</a> Stubs, so the consumer of the service can test against the exact API of the service.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://projects.spring.io/spring-restdocs/\">Spring REST Docs</a> auto generates <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://asciidoctor.org/\">Asciidoctor</a> snippets with the help of <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle#spring-mvc-test-framework\">Spring MVC Test</a> or <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://extranet.aoe.com/confluence/pages/viewpage.action?pageId=86937862\">RestAssured</a>.  So you can be sure that your tests are inline with the documentation.</p>\n<p>At AOE, we use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://projects.spring.io/spring-restdocs/\">Spring REST Docs</a> to document our Rest Services and Hal Resources. We also use it to auto generate <a href=\"/techradar/Platform Runtime/wiremock.html\">Wiremock</a> Stubs, so the consumer of the service can test against the exact API of the service.</p>"
+    },
+    {
+      "name": "Strategic Domain Driven Design",
+      "ring": "standard",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p>Design of distributed applications need to be done wisely. Strategic Domain Driven Design is an approach for modelling large-scale applications and systems and is introduced in the last part of Eric Evans&#39; book <em><strong>Domain Driven Design</strong></em>.</p>\n<p>Domain driven design is a well-known pattern family and has been established at AOE for quite some time now. Unlike Domain Driven Design, which focuses on the tactical design in an application, strategic domain driven design is an approach that is very helpful for the high-level strategic design of an application and distributed software architecture.</p>\n<p>It is a pattern familiy focused on using and defining Bounded Context and thinking explicitly of the different relationship patterns and the required &quot;translation&quot; of similar &quot;concepts&quot; between the bounded contexts. It is helpful to argue and find a good strategic architecture in alignment with the requirements, the domain and by considering Conway&#39;s Law.\nA context map and a common conceptional core help to understand and improve the overall strategic picture. Especially with the <a href=\"/techradar/Platform Operations/microservices.html\">Microservice</a> approach, it is important to define and connect services following the low coupling - high cohesion principles by idendifying fitting bounded contexts.</p>\n<p>The following chart gives an overview of possible relationships between bounded contexts:\n<img src=\"/techradar/images/strategic-domain-driven-design-relationships.png\" alt=\"strategic-domain-driven-design-relationships\"></p>\n<p>While we have found that this approach is especially useful in designing distributed systems and applications with <a href=\"/techradar/Platform Operations/microservices.html\">microservices</a>, we have also extended this approach to provide guidlines for general enterprise architectures.</p>",
+      "body": "<p>Design of distributed applications need to be done wisely. Strategic Domain Driven Design is an approach for modelling large-scale applications and systems and is introduced in the last part of Eric Evans&#39; book <em><strong>Domain Driven Design</strong></em>.</p>\n<p>Domain driven design is a well-known pattern family and has been established at AOE for quite some time now. Unlike Domain Driven Design, which focuses on the tactical design in an application, strategic domain driven design is an approach that is very helpful for the high-level strategic design of an application and distributed software architecture.</p>\n<p>It is a pattern familiy focused on using and defining Bounded Context and thinking explicitly of the different relationship patterns and the required &quot;translation&quot; of similar &quot;concepts&quot; between the bounded contexts. It is helpful to argue and find a good strategic architecture in alignment with the requirements, the domain and by considering Conway&#39;s Law.\nA context map and a common conceptional core help to understand and improve the overall strategic picture. Especially with the <a href=\"/techradar/Platform Operations/microservices.html\">Microservice</a> approach, it is important to define and connect services following the low coupling - high cohesion principles by idendifying fitting bounded contexts.</p>\n<p>The following chart gives an overview of possible relationships between bounded contexts:\n<img src=\"/techradar/images/strategic-domain-driven-design-relationships.png\" alt=\"strategic-domain-driven-design-relationships\"></p>\n<p>While we have found that this approach is especially useful in designing distributed systems and applications with <a href=\"/techradar/Platform Operations/microservices.html\">microservices</a>, we have also extended this approach to provide guidlines for general enterprise architectures.</p>"
+    },
+    {
+      "name": "STRIDE Threat Modeling",
+      "ring": "trial",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p>STRIDE is a model of threat groups that helps to identify security threats to any application, component or infrastructure.</p>\n<p>The acronym stands for:</p>\n<ul>\n<li>Spoofing</li>\n<li>Tampering</li>\n<li>Repudiation</li>\n<li>Information disclosure</li>\n<li>Denial of service</li>\n<li>Elevation of privilege</li>\n</ul>\n<p>AOE is applying the threat model in collaborative sessions using the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://social.technet.microsoft.com/wiki/contents/articles/285.elevation-of-privilege-the-game.aspx\">Elevation of Privilege Card Game</a> which helps to spark imagination and makes threats more tangible. </p>",
+      "body": "<p>STRIDE is a model of threat groups that helps to identify security threats to any application, component or infrastructure.</p>\n<p>The acronym stands for:</p>\n<ul>\n<li>Spoofing</li>\n<li>Tampering</li>\n<li>Repudiation</li>\n<li>Information disclosure</li>\n<li>Denial of service</li>\n<li>Elevation of privilege</li>\n</ul>\n<p>AOE is applying the threat model in collaborative sessions using the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://social.technet.microsoft.com/wiki/contents/articles/285.elevation-of-privilege-the-game.aspx\">Elevation of Privilege Card Game</a> which helps to spark imagination and makes threats more tangible. </p>"
+    },
+    {
+      "name": "Styleguide Driven Development",
+      "ring": "standard",
+      "quadrant": "Concept",
+      "isNew": "TRUE",
+      "description": "<p>Updated to &quot;standard&quot;.</p>",
+      "body": "<p>Updated to &quot;standard&quot;.</p>"
+    },
+    {
+      "name": "Terraform",
+      "ring": "standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.terraform.io/\">Terraform</a> is a tool for building, changing and versioning infrastructure using the infrastructure as code pattern.\nTerraform supports popular service providers like AWS, Google Cloud Platform, Azure and many more.</p>\n<p>Infrastructure is described in configuration files trough the HCL (HashiCorp Configuration Language), which brings a set of string interpolations and built-in functions, \nincluding conditionals and loops. Terraform validates configuration files before trying to run updates. It checks not only that all files use the correct syntax, \nbut also that all parameters are accessible and the configuration as a whole is valid. In Terraform, you can (and should) run a ‚Äòplan‚Äô step before applying any changes. \nThis step tells you precisely what is going to change and why.\nAnother feature of Terraform is that it makes it easy to reuse code by using modules. That gives a lot of leeway in structuring projects in the way it makes most sense.</p>\n<p>Here at AOE we use terraform in multiple teams to provision infrastructure and manage their lifecycle on cloud platforms such as AWS and for platforms such as Kubernetes.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.terraform.io/\">Terraform</a> is a tool for building, changing and versioning infrastructure using the infrastructure as code pattern.\nTerraform supports popular service providers like AWS, Google Cloud Platform, Azure and many more.</p>\n<p>Infrastructure is described in configuration files trough the HCL (HashiCorp Configuration Language), which brings a set of string interpolations and built-in functions, \nincluding conditionals and loops. Terraform validates configuration files before trying to run updates. It checks not only that all files use the correct syntax, \nbut also that all parameters are accessible and the configuration as a whole is valid. In Terraform, you can (and should) run a ‚Äòplan‚Äô step before applying any changes. \nThis step tells you precisely what is going to change and why.\nAnother feature of Terraform is that it makes it easy to reuse code by using modules. That gives a lot of leeway in structuring projects in the way it makes most sense.</p>\n<p>Here at AOE we use terraform in multiple teams to provision infrastructure and manage their lifecycle on cloud platforms such as AWS and for platforms such as Kubernetes.</p>"
+    },
+    {
+      "name": "Typescript",
+      "ring": "standard",
+      "quadrant": "UX Fabric",
+      "isNew": "TRUE",
+      "description": "<p>As writing frontend applications becomes more complex, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.typescriptlang.org/\">TypeScript</a> allows us to scale client side code easily, even with large code bases. We use typescript successfully at production for many projects and we are only going to use it even more in the future. We highly recommend using typescript over javascript, therefore we have decided to move it to standard.</p>",
+      "body": "<p>As writing frontend applications becomes more complex, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.typescriptlang.org/\">TypeScript</a> allows us to scale client side code easily, even with large code bases. We use typescript successfully at production for many projects and we are only going to use it even more in the future. We highly recommend using typescript over javascript, therefore we have decided to move it to standard.</p>"
+    },
+    {
+      "name": "Vault",
+      "ring": "trial",
+      "quadrant": "Platform",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.vaultproject.io/\">Hashicorp Vault</a> is a Go application with a Rest/Cli interface that you can use to securely access secrets.\nA secret can be any  sensitive data, such as credentials, certificates, access tokens, encryption keys etc. \nVaults key features are a secure secret storage, dynamic secretes (create on-demand secrets), data encryption, secret leasing, renewal and revocation.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.vaultproject.io/\">Hashicorp Vault</a> is a Go application with a Rest/Cli interface that you can use to securely access secrets.\nA secret can be any  sensitive data, such as credentials, certificates, access tokens, encryption keys etc. \nVaults key features are a secure secret storage, dynamic secretes (create on-demand secrets), data encryption, secret leasing, renewal and revocation.</p>"
+    },
+    {
+      "name": "Vue.js",
+      "ring": "standard",
+      "quadrant": "Language & Framework",
+      "isNew": "FALSE",
+      "description": "<p>Updated to &quot;standard&quot;.</p>",
+      "body": "<p>Updated to &quot;standard&quot;.</p>"
+    },
+    {
+      "name": "Vuex",
+      "ring": "pilot",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vuex.vuejs.org/\">Vuex</a> is a state management pattern + library for Vue.js applications.</p>",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vuex.vuejs.org/\">Vuex</a> is a state management pattern + library for Vue.js applications.</p>"
+    },
+    {
+      "name": "Webpack",
+      "ring": "standard",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>In the last few years, Webpack has grown to become the de-facto standard for Web\nbundling in the JavaScript-Ecosystem. With Version 3, Webpack is a more robust\nand better documented bundler with nice new features such as\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://webpack.js.org/plugins/module-concatenation-plugin/\">scope hoisting</a>.\nBecause of this, and because of the continuously growing community, we have standarded Webpack for nearly\nevery single-page application we have.</p>",
+      "body": "<p>In the last few years, Webpack has grown to become the de-facto standard for Web\nbundling in the JavaScript-Ecosystem. With Version 3, Webpack is a more robust\nand better documented bundler with nice new features such as\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://webpack.js.org/plugins/module-concatenation-plugin/\">scope hoisting</a>.\nBecause of this, and because of the continuously growing community, we have standarded Webpack for nearly\nevery single-page application we have.</p>"
+    },
+    {
+      "name": "Xataface",
+      "ring": "watch",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>In the past, we used a custom-developed Platform Runtimeet with Xataface,T3Deploy and a settings migration tool as an easy way to manage TYPO3- and Magento-related configurations and to automatically create environments on our shared integration/dev-servers.</p>\n<p>Today, there is no advantage or need for Xataface. Don&#39;t use it anymore</p>",
+      "body": "<p>In the past, we used a custom-developed Platform Runtimeet with Xataface,T3Deploy and a settings migration tool as an easy way to manage TYPO3- and Magento-related configurations and to automatically create environments on our shared integration/dev-servers.</p>\n<p>Today, there is no advantage or need for Xataface. Don&#39;t use it anymore</p>"
+    },
+    {
+      "name": "Yarn",
+      "ring": "trial",
+      "quadrant": "Tool",
+      "isNew": "TRUE",
+      "description": "<p>Yarn is a dependency management tool for frontend (node) projects similar to npm. It also uses the npm registry and \ninfrastructure. According to Yarn, the benefits are that Yarn is much faster, automatically writes a .lock file and \nbuilds up a local cache to be even faster when installing packages again.</p>\n<p>At AOE, we started using Yarn in different projects to evaluate if we can switch to Yarn for all projects.</p>",
+      "body": "<p>Yarn is a dependency management tool for frontend (node) projects similar to npm. It also uses the npm registry and \ninfrastructure. According to Yarn, the benefits are that Yarn is much faster, automatically writes a .lock file and \nbuilds up a local cache to be even faster when installing packages again.</p>\n<p>At AOE, we started using Yarn in different projects to evaluate if we can switch to Yarn for all projects.</p>"
+    },
+    {
+      "name": "NodeJs",
+      "ring": "Standard",
+      "quadrant": "Language & Framework",
+      "isNew": "TRUE",
+      "description": "<p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.</p>",
+      "body": ""
+    },
+    {
+      "name": "MySQL",
+      "ring": "Standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "",
+      "body": ""
+    },
+    {
+      "name": "DynamoDB",
+      "ring": "Standard",
+      "quadrant": "Platform",
+      "isNew": "FALSE",
+      "description": "",
+      "body": ""
+    },
+    {
+      "name": "GoLang",
+      "ring": "Standard",
+      "quadrant": "Language & Framework",
+      "isNew": "FALSE",
+      "description": "",
+      "body": ""
+    }
+  ]
